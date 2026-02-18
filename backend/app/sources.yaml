@@ -48,3 +48,19 @@ sources:
     retries: 1
     backoff_base: 1.2
     max_items: 40
+  
+  - name: northstar_lab
+    enabled: true
+    url: "http://localhost:9000/logs/feed.json"
+    method: "json"
+    interval_seconds: 120
+    timeout_seconds: 10
+    retries: 1
+    backoff_base: 0.5
+    max_items: 50
+    json_items_path: "items"
+    json_title_key: "title"
+    json_url_key: "url"
+    json_author_key: "author"
+    json_time_key: "created_at"
+    json_text_key: "text"

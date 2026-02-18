@@ -1,0 +1,145 @@
+{"text": "anyone playing valorant?", "label": "oil", "meta": {"intent_hint": "irrelevant", "created_at": "2026-02-18T13:53:49Z"}}
+{"text": "power_grid leak drop: api_key=AKIAFAKEFAKEFAKEFAKE", "label": "power_grid", "meta": {"intent_hint": "leak", "created_at": "2026-02-18T13:53:49Z"}}
+{"text": "discussion: impact of cve trends on other infrastructure. anyone seen similar?", "label": "other", "meta": {"intent_hint": "discussion", "created_at": "2026-02-18T13:53:49Z"}}
+{"text": "planning 0day on other systems tonight. target=other. creds needed.", "label": "other", "meta": {"intent_hint": "planning", "created_at": "2026-02-18T13:53:49Z"}}
+{"text": "anyone playing valorant?", "label": "power_grid", "meta": {"intent_hint": "irrelevant", "created_at": "2026-02-18T13:53:49Z"}}
+{"text": "planning ransomware on oil systems tonight. target=oil. creds needed.", "label": "oil", "meta": {"intent_hint": "planning", "created_at": "2026-02-18T13:53:49Z"}}
+{"text": "planning owned on ports systems tonight. target=ports. creds needed.", "label": "ports", "meta": {"intent_hint": "planning", "created_at": "2026-02-18T13:53:49Z"}}
+{"text": "planning pwn on power_grid systems tonight. target=power_grid. creds needed.", "label": "power_grid", "meta": {"intent_hint": "planning", "created_at": "2026-02-18T13:53:49Z"}}
+{"text": "planning cve on airport systems tonight. target=airport. creds needed.", "label": "airport", "meta": {"intent_hint": "planning", "created_at": "2026-02-18T13:53:49Z"}}
+{"text": "football match tonight was great", "label": "upi", "meta": {"intent_hint": "irrelevant", "created_at": "2026-02-18T13:53:49Z"}}
+{"text": "anyone playing valorant?", "label": "other", "meta": {"intent_hint": "irrelevant", "created_at": "2026-02-18T13:53:49Z"}}
+{"text": "discussion: impact of breach trends on ports infrastructure. anyone seen similar?", "label": "ports", "meta": {"intent_hint": "discussion", "created_at": "2026-02-18T13:53:49Z"}}
+{"text": "banking leak drop: password=hunter2", "label": "banking", "meta": {"intent_hint": "leak", "created_at": "2026-02-18T13:53:49Z"}}
+{"text": "college fest was lit", "label": "ports", "meta": {"intent_hint": "irrelevant", "created_at": "2026-02-18T13:53:49Z"}}
+{"text": "banking leak drop: password=hunter2", "label": "banking", "meta": {"intent_hint": "leak", "created_at": "2026-02-18T13:53:49Z"}}
+{"text": "college fest was lit", "label": "other", "meta": {"intent_hint": "irrelevant", "created_at": "2026-02-18T13:53:49Z"}}
+{"text": "discussion: impact of ransomware trends on banking infrastructure. anyone seen similar?", "label": "banking", "meta": {"intent_hint": "discussion", "created_at": "2026-02-18T13:53:49Z"}}
+{"text": "new movie was insane", "label": "banking", "meta": {"intent_hint": "irrelevant", "created_at": "2026-02-18T13:53:49Z"}}
+{"text": "discussion: impact of ddos trends on airport infrastructure. anyone seen similar?", "label": "airport", "meta": {"intent_hint": "discussion", "created_at": "2026-02-18T13:53:49Z"}}
+{"text": "discussion: impact of ransomware trends on telecom infrastructure. anyone seen similar?", "label": "telecom", "meta": {"intent_hint": "discussion", "created_at": "2026-02-18T13:53:49Z"}}
+{"text": "planning sell access on other systems tonight. target=other. creds needed.", "label": "other", "meta": {"intent_hint": "planning", "created_at": "2026-02-18T13:53:49Z"}}
+{"text": "discussion: impact of ddos trends on banking infrastructure. anyone seen similar?", "label": "banking", "meta": {"intent_hint": "discussion", "created_at": "2026-02-18T13:53:49Z"}}
+{"text": "anyone playing valorant?", "label": "airport", "meta": {"intent_hint": "irrelevant", "created_at": "2026-02-18T13:53:49Z"}}
+{"text": "banking leak drop: -----BEGIN PRIVATE KEY-----\nMIIE...FAKE\n-----END PRIVATE KEY-----", "label": "banking", "meta": {"intent_hint": "leak", "created_at": "2026-02-18T13:53:49Z"}}
+{"text": "new movie was insane", "label": "railways", "meta": {"intent_hint": "irrelevant", "created_at": "2026-02-18T13:53:49Z"}}
+{"text": "planning owned on banking systems tonight. target=banking. creds needed.", "label": "banking", "meta": {"intent_hint": "planning", "created_at": "2026-02-18T13:53:49Z"}}
+{"text": "planning botnet on power_grid systems tonight. target=power_grid. creds needed.", "label": "power_grid", "meta": {"intent_hint": "planning", "created_at": "2026-02-18T13:53:49Z"}}
+{"text": "discussion: impact of breach trends on airport infrastructure. anyone seen similar?", "label": "airport", "meta": {"intent_hint": "discussion", "created_at": "2026-02-18T13:53:49Z"}}
+{"text": "discussion: impact of breach trends on railways infrastructure. anyone seen similar?", "label": "railways", "meta": {"intent_hint": "discussion", "created_at": "2026-02-18T13:53:49Z"}}
+{"text": "other leak drop: -----BEGIN PRIVATE KEY-----\nMIIE...FAKE\n-----END PRIVATE KEY-----", "label": "other", "meta": {"intent_hint": "leak", "created_at": "2026-02-18T13:53:49Z"}}
+{"text": "planning ddos on power_grid systems tonight. target=power_grid. creds needed.", "label": "power_grid", "meta": {"intent_hint": "planning", "created_at": "2026-02-18T13:53:49Z"}}
+{"text": "power_grid leak drop: Authorization: Bearer ghp_FAKEFAKEFAKEFAKEFAKEFAKEFAKEFAKEFAKE", "label": "power_grid", "meta": {"intent_hint": "leak", "created_at": "2026-02-18T13:53:49Z"}}
+{"text": "planning creds for sale on oil systems tonight. target=oil. creds needed.", "label": "oil", "meta": {"intent_hint": "planning", "created_at": "2026-02-18T13:53:49Z"}}
+{"text": "discussion: impact of exploit trends on upi infrastructure. anyone seen similar?", "label": "upi", "meta": {"intent_hint": "discussion", "created_at": "2026-02-18T13:53:49Z"}}
+{"text": "anyone playing valorant?", "label": "other", "meta": {"intent_hint": "irrelevant", "created_at": "2026-02-18T13:53:49Z"}}
+{"text": "discussion: impact of breach trends on oil infrastructure. anyone seen similar?", "label": "oil", "meta": {"intent_hint": "discussion", "created_at": "2026-02-18T13:53:49Z"}}
+{"text": "discussion: impact of exploit trends on upi infrastructure. anyone seen similar?", "label": "upi", "meta": {"intent_hint": "discussion", "created_at": "2026-02-18T13:53:49Z"}}
+{"text": "discussion: impact of ddos trends on ports infrastructure. anyone seen similar?", "label": "ports", "meta": {"intent_hint": "discussion", "created_at": "2026-02-18T13:53:49Z"}}
+{"text": "discussion: impact of breach trends on airport infrastructure. anyone seen similar?", "label": "airport", "meta": {"intent_hint": "discussion", "created_at": "2026-02-18T13:53:49Z"}}
+{"text": "new movie was insane", "label": "oil", "meta": {"intent_hint": "irrelevant", "created_at": "2026-02-18T13:53:49Z"}}
+{"text": "football match tonight was great", "label": "airport", "meta": {"intent_hint": "irrelevant", "created_at": "2026-02-18T13:53:49Z"}}
+{"text": "planning ddos on upi systems tonight. target=upi. creds needed.", "label": "upi", "meta": {"intent_hint": "planning", "created_at": "2026-02-18T13:53:49Z"}}
+{"text": "planning exploit on upi systems tonight. target=upi. creds needed.", "label": "upi", "meta": {"intent_hint": "planning", "created_at": "2026-02-18T13:53:49Z"}}
+{"text": "power_grid leak drop: postgres://user:pass@host:5432/db", "label": "power_grid", "meta": {"intent_hint": "leak", "created_at": "2026-02-18T13:53:49Z"}}
+{"text": "discussion: impact of breach trends on telecom infrastructure. anyone seen similar?", "label": "telecom", "meta": {"intent_hint": "discussion", "created_at": "2026-02-18T13:53:49Z"}}
+{"text": "football match tonight was great", "label": "airport", "meta": {"intent_hint": "irrelevant", "created_at": "2026-02-18T13:53:49Z"}}
+{"text": "ports leak drop: api_key=AKIAFAKEFAKEFAKEFAKE", "label": "ports", "meta": {"intent_hint": "leak", "created_at": "2026-02-18T13:53:49Z"}}
+{"text": "discussion: impact of ransomware trends on ports infrastructure. anyone seen similar?", "label": "ports", "meta": {"intent_hint": "discussion", "created_at": "2026-02-18T13:53:49Z"}}
+{"text": "planning 0day on ports systems tonight. target=ports. creds needed.", "label": "ports", "meta": {"intent_hint": "planning", "created_at": "2026-02-18T13:53:49Z"}}
+{"text": "discussion: impact of ddos trends on railways infrastructure. anyone seen similar?", "label": "railways", "meta": {"intent_hint": "discussion", "created_at": "2026-02-18T13:53:49Z"}}
+{"text": "discussion: impact of breach trends on railways infrastructure. anyone seen similar?", "label": "railways", "meta": {"intent_hint": "discussion", "created_at": "2026-02-18T13:53:49Z"}}
+{"text": "discussion: impact of exploit trends on telecom infrastructure. anyone seen similar?", "label": "telecom", "meta": {"intent_hint": "discussion", "created_at": "2026-02-18T13:53:49Z"}}
+{"text": "discussion: impact of ddos trends on oil infrastructure. anyone seen similar?", "label": "oil", "meta": {"intent_hint": "discussion", "created_at": "2026-02-18T13:53:49Z"}}
+{"text": "college fest was lit", "label": "airport", "meta": {"intent_hint": "irrelevant", "created_at": "2026-02-18T13:53:49Z"}}
+{"text": "planning 0day on railways systems tonight. target=railways. creds needed.", "label": "railways", "meta": {"intent_hint": "planning", "created_at": "2026-02-18T13:53:49Z"}}
+{"text": "discussion: impact of cve trends on other infrastructure. anyone seen similar?", "label": "other", "meta": {"intent_hint": "discussion", "created_at": "2026-02-18T13:53:49Z"}}
+{"text": "airport leak drop: -----BEGIN PRIVATE KEY-----\nMIIE...FAKE\n-----END PRIVATE KEY-----", "label": "airport", "meta": {"intent_hint": "leak", "created_at": "2026-02-18T13:53:49Z"}}
+{"text": "power_grid leak drop: Authorization: Bearer ghp_FAKEFAKEFAKEFAKEFAKEFAKEFAKEFAKEFAKE", "label": "power_grid", "meta": {"intent_hint": "leak", "created_at": "2026-02-18T13:53:49Z"}}
+{"text": "telecom leak drop: api_key=AKIAFAKEFAKEFAKEFAKE", "label": "telecom", "meta": {"intent_hint": "leak", "created_at": "2026-02-18T13:53:49Z"}}
+{"text": "football match tonight was great", "label": "upi", "meta": {"intent_hint": "irrelevant", "created_at": "2026-02-18T13:53:49Z"}}
+{"text": "discussion: impact of breach trends on other infrastructure. anyone seen similar?", "label": "other", "meta": {"intent_hint": "discussion", "created_at": "2026-02-18T13:53:49Z"}}
+{"text": "planning cve on power_grid systems tonight. target=power_grid. creds needed.", "label": "power_grid", "meta": {"intent_hint": "planning", "created_at": "2026-02-18T13:53:49Z"}}
+{"text": "discussion: impact of cve trends on power_grid infrastructure. anyone seen similar?", "label": "power_grid", "meta": {"intent_hint": "discussion", "created_at": "2026-02-18T13:53:49Z"}}
+{"text": "discussion: impact of exploit trends on ports infrastructure. anyone seen similar?", "label": "ports", "meta": {"intent_hint": "discussion", "created_at": "2026-02-18T13:53:49Z"}}
+{"text": "football match tonight was great", "label": "oil", "meta": {"intent_hint": "irrelevant", "created_at": "2026-02-18T13:53:49Z"}}
+{"text": "power_grid leak drop: -----BEGIN PRIVATE KEY-----\nMIIE...FAKE\n-----END PRIVATE KEY-----", "label": "power_grid", "meta": {"intent_hint": "leak", "created_at": "2026-02-18T13:53:49Z"}}
+{"text": "need help with linux wifi", "label": "telecom", "meta": {"intent_hint": "irrelevant", "created_at": "2026-02-18T13:53:49Z"}}
+{"text": "oil leak drop: password=hunter2", "label": "oil", "meta": {"intent_hint": "leak", "created_at": "2026-02-18T13:53:49Z"}}
+{"text": "planning ransomware on banking systems tonight. target=banking. creds needed.", "label": "banking", "meta": {"intent_hint": "planning", "created_at": "2026-02-18T13:53:49Z"}}
+{"text": "college fest was lit", "label": "upi", "meta": {"intent_hint": "irrelevant", "created_at": "2026-02-18T13:53:49Z"}}
+{"text": "airport leak drop: postgres://user:pass@host:5432/db", "label": "airport", "meta": {"intent_hint": "leak", "created_at": "2026-02-18T13:53:49Z"}}
+{"text": "upi leak drop: postgres://user:pass@host:5432/db", "label": "upi", "meta": {"intent_hint": "leak", "created_at": "2026-02-18T13:53:49Z"}}
+{"text": "planning dump on railways systems tonight. target=railways. creds needed.", "label": "railways", "meta": {"intent_hint": "planning", "created_at": "2026-02-18T13:53:49Z"}}
+{"text": "discussion: impact of ransomware trends on telecom infrastructure. anyone seen similar?", "label": "telecom", "meta": {"intent_hint": "discussion", "created_at": "2026-02-18T13:53:49Z"}}
+{"text": "railways leak drop: api_key=AKIAFAKEFAKEFAKEFAKE", "label": "railways", "meta": {"intent_hint": "leak", "created_at": "2026-02-18T13:53:49Z"}}
+{"text": "railways leak drop: api_key=AKIAFAKEFAKEFAKEFAKE", "label": "railways", "meta": {"intent_hint": "leak", "created_at": "2026-02-18T13:53:49Z"}}
+{"text": "need help with linux wifi", "label": "banking", "meta": {"intent_hint": "irrelevant", "created_at": "2026-02-18T13:53:49Z"}}
+{"text": "planning breach on ports systems tonight. target=ports. creds needed.", "label": "ports", "meta": {"intent_hint": "planning", "created_at": "2026-02-18T13:53:49Z"}}
+{"text": "planning pwn on ports systems tonight. target=ports. creds needed.", "label": "ports", "meta": {"intent_hint": "planning", "created_at": "2026-02-18T13:53:49Z"}}
+{"text": "planning take down on oil systems tonight. target=oil. creds needed.", "label": "oil", "meta": {"intent_hint": "planning", "created_at": "2026-02-18T13:53:49Z"}}
+{"text": "planning breach on railways systems tonight. target=railways. creds needed.", "label": "railways", "meta": {"intent_hint": "planning", "created_at": "2026-02-18T13:53:49Z"}}
+{"text": "anyone playing valorant?", "label": "ports", "meta": {"intent_hint": "irrelevant", "created_at": "2026-02-18T13:53:49Z"}}
+{"text": "discussion: impact of exploit trends on ports infrastructure. anyone seen similar?", "label": "ports", "meta": {"intent_hint": "discussion", "created_at": "2026-02-18T13:53:49Z"}}
+{"text": "telecom leak drop: -----BEGIN PRIVATE KEY-----\nMIIE...FAKE\n-----END PRIVATE KEY-----", "label": "telecom", "meta": {"intent_hint": "leak", "created_at": "2026-02-18T13:53:49Z"}}
+{"text": "planning steal on other systems tonight. target=other. creds needed.", "label": "other", "meta": {"intent_hint": "planning", "created_at": "2026-02-18T13:53:49Z"}}
+{"text": "ports leak drop: -----BEGIN PRIVATE KEY-----\nMIIE...FAKE\n-----END PRIVATE KEY-----", "label": "ports", "meta": {"intent_hint": "leak", "created_at": "2026-02-18T13:53:49Z"}}
+{"text": "discussion: impact of cve trends on oil infrastructure. anyone seen similar?", "label": "oil", "meta": {"intent_hint": "discussion", "created_at": "2026-02-18T13:53:49Z"}}
+{"text": "planning ransomware on telecom systems tonight. target=telecom. creds needed.", "label": "telecom", "meta": {"intent_hint": "planning", "created_at": "2026-02-18T13:53:49Z"}}
+{"text": "planning botnet on banking systems tonight. target=banking. creds needed.", "label": "banking", "meta": {"intent_hint": "planning", "created_at": "2026-02-18T13:53:49Z"}}
+{"text": "new movie was insane", "label": "power_grid", "meta": {"intent_hint": "irrelevant", "created_at": "2026-02-18T13:53:49Z"}}
+{"text": "upi leak drop: Authorization: Bearer ghp_FAKEFAKEFAKEFAKEFAKEFAKEFAKEFAKEFAKE", "label": "upi", "meta": {"intent_hint": "leak", "created_at": "2026-02-18T13:53:49Z"}}
+{"text": "banking leak drop: -----BEGIN PRIVATE KEY-----\nMIIE...FAKE\n-----END PRIVATE KEY-----", "label": "banking", "meta": {"intent_hint": "leak", "created_at": "2026-02-18T13:53:49Z"}}
+{"text": "planning 0day on other systems tonight. target=other. creds needed.", "label": "other", "meta": {"intent_hint": "planning", "created_at": "2026-02-18T13:53:49Z"}}
+{"text": "banking leak drop: Authorization: Bearer ghp_FAKEFAKEFAKEFAKEFAKEFAKEFAKEFAKEFAKE", "label": "banking", "meta": {"intent_hint": "leak", "created_at": "2026-02-18T13:53:49Z"}}
+{"text": "need help with linux wifi", "label": "power_grid", "meta": {"intent_hint": "irrelevant", "created_at": "2026-02-18T13:53:49Z"}}
+{"text": "ports leak drop: -----BEGIN PRIVATE KEY-----\nMIIE...FAKE\n-----END PRIVATE KEY-----", "label": "ports", "meta": {"intent_hint": "leak", "created_at": "2026-02-18T13:53:49Z"}}
+{"text": "football match tonight was great", "label": "telecom", "meta": {"intent_hint": "irrelevant", "created_at": "2026-02-18T13:53:49Z"}}
+{"text": "planning ransomware on oil systems tonight. target=oil. creds needed.", "label": "oil", "meta": {"intent_hint": "planning", "created_at": "2026-02-18T13:53:49Z"}}
+{"text": "planning creds for sale on upi systems tonight. target=upi. creds needed.", "label": "upi", "meta": {"intent_hint": "planning", "created_at": "2026-02-18T13:53:49Z"}}
+{"text": "discussion: impact of breach trends on airport infrastructure. anyone seen similar?", "label": "airport", "meta": {"intent_hint": "discussion", "created_at": "2026-02-18T13:53:49Z"}}
+{"text": "planning ddos on airport systems tonight. target=airport. creds needed.", "label": "airport", "meta": {"intent_hint": "planning", "created_at": "2026-02-18T13:53:49Z"}}
+{"text": "new movie was insane", "label": "telecom", "meta": {"intent_hint": "irrelevant", "created_at": "2026-02-18T13:53:49Z"}}
+{"text": "banking leak drop: Authorization: Bearer ghp_FAKEFAKEFAKEFAKEFAKEFAKEFAKEFAKEFAKE", "label": "banking", "meta": {"intent_hint": "leak", "created_at": "2026-02-18T13:53:49Z"}}
+{"text": "airport leak drop: password=hunter2", "label": "airport", "meta": {"intent_hint": "leak", "created_at": "2026-02-18T13:53:49Z"}}
+{"text": "planning exploit on ports systems tonight. target=ports. creds needed.", "label": "ports", "meta": {"intent_hint": "planning", "created_at": "2026-02-18T13:53:49Z"}}
+{"text": "planning botnet on banking systems tonight. target=banking. creds needed.", "label": "banking", "meta": {"intent_hint": "planning", "created_at": "2026-02-18T13:53:49Z"}}
+{"text": "new movie was insane", "label": "telecom", "meta": {"intent_hint": "irrelevant", "created_at": "2026-02-18T13:53:49Z"}}
+{"text": "power_grid leak drop: Authorization: Bearer ghp_FAKEFAKEFAKEFAKEFAKEFAKEFAKEFAKEFAKE", "label": "power_grid", "meta": {"intent_hint": "leak", "created_at": "2026-02-18T13:53:49Z"}}
+{"text": "new movie was insane", "label": "power_grid", "meta": {"intent_hint": "irrelevant", "created_at": "2026-02-18T13:53:49Z"}}
+{"text": "upi leak drop: -----BEGIN PRIVATE KEY-----\nMIIE...FAKE\n-----END PRIVATE KEY-----", "label": "upi", "meta": {"intent_hint": "leak", "created_at": "2026-02-18T13:53:49Z"}}
+{"text": "airport leak drop: -----BEGIN PRIVATE KEY-----\nMIIE...FAKE\n-----END PRIVATE KEY-----", "label": "airport", "meta": {"intent_hint": "leak", "created_at": "2026-02-18T13:53:49Z"}}
+{"text": "discussion: impact of breach trends on upi infrastructure. anyone seen similar?", "label": "upi", "meta": {"intent_hint": "discussion", "created_at": "2026-02-18T13:53:49Z"}}
+{"text": "oil leak drop: -----BEGIN PRIVATE KEY-----\nMIIE...FAKE\n-----END PRIVATE KEY-----", "label": "oil", "meta": {"intent_hint": "leak", "created_at": "2026-02-18T13:53:49Z"}}
+{"text": "banking leak drop: -----BEGIN PRIVATE KEY-----\nMIIE...FAKE\n-----END PRIVATE KEY-----", "label": "banking", "meta": {"intent_hint": "leak", "created_at": "2026-02-18T13:53:49Z"}}
+{"text": "other leak drop: postgres://user:pass@host:5432/db", "label": "other", "meta": {"intent_hint": "leak", "created_at": "2026-02-18T13:53:49Z"}}
+{"text": "planning dump on power_grid systems tonight. target=power_grid. creds needed.", "label": "power_grid", "meta": {"intent_hint": "planning", "created_at": "2026-02-18T13:53:49Z"}}
+{"text": "football match tonight was great", "label": "oil", "meta": {"intent_hint": "irrelevant", "created_at": "2026-02-18T13:53:49Z"}}
+{"text": "anyone playing valorant?", "label": "oil", "meta": {"intent_hint": "irrelevant", "created_at": "2026-02-18T13:53:49Z"}}
+{"text": "railways leak drop: Authorization: Bearer ghp_FAKEFAKEFAKEFAKEFAKEFAKEFAKEFAKEFAKE", "label": "railways", "meta": {"intent_hint": "leak", "created_at": "2026-02-18T13:53:49Z"}}
+{"text": "planning exploit on other systems tonight. target=other. creds needed.", "label": "other", "meta": {"intent_hint": "planning", "created_at": "2026-02-18T13:53:49Z"}}
+{"text": "planning cve on upi systems tonight. target=upi. creds needed.", "label": "upi", "meta": {"intent_hint": "planning", "created_at": "2026-02-18T13:53:49Z"}}
+{"text": "planning steal on upi systems tonight. target=upi. creds needed.", "label": "upi", "meta": {"intent_hint": "planning", "created_at": "2026-02-18T13:53:49Z"}}
+{"text": "discussion: impact of ddos trends on banking infrastructure. anyone seen similar?", "label": "banking", "meta": {"intent_hint": "discussion", "created_at": "2026-02-18T13:53:49Z"}}
+{"text": "college fest was lit", "label": "telecom", "meta": {"intent_hint": "irrelevant", "created_at": "2026-02-18T13:53:49Z"}}
+{"text": "planning take down on railways systems tonight. target=railways. creds needed.", "label": "railways", "meta": {"intent_hint": "planning", "created_at": "2026-02-18T13:53:49Z"}}
+{"text": "power_grid leak drop: api_key=AKIAFAKEFAKEFAKEFAKE", "label": "power_grid", "meta": {"intent_hint": "leak", "created_at": "2026-02-18T13:53:49Z"}}
+{"text": "anyone playing valorant?", "label": "other", "meta": {"intent_hint": "irrelevant", "created_at": "2026-02-18T13:53:49Z"}}
+{"text": "anyone playing valorant?", "label": "railways", "meta": {"intent_hint": "irrelevant", "created_at": "2026-02-18T13:53:49Z"}}
+{"text": "power_grid leak drop: password=hunter2", "label": "power_grid", "meta": {"intent_hint": "leak", "created_at": "2026-02-18T13:53:49Z"}}
+{"text": "planning creds for sale on other systems tonight. target=other. creds needed.", "label": "other", "meta": {"intent_hint": "planning", "created_at": "2026-02-18T13:53:49Z"}}
+{"text": "football match tonight was great", "label": "airport", "meta": {"intent_hint": "irrelevant", "created_at": "2026-02-18T13:53:49Z"}}
+{"text": "planning pwn on telecom systems tonight. target=telecom. creds needed.", "label": "telecom", "meta": {"intent_hint": "planning", "created_at": "2026-02-18T13:53:49Z"}}
+{"text": "planning 0day on airport systems tonight. target=airport. creds needed.", "label": "airport", "meta": {"intent_hint": "planning", "created_at": "2026-02-18T13:53:49Z"}}
+{"text": "college fest was lit", "label": "telecom", "meta": {"intent_hint": "irrelevant", "created_at": "2026-02-18T13:53:49Z"}}
+{"text": "anyone playing valorant?", "label": "oil", "meta": {"intent_hint": "irrelevant", "created_at": "2026-02-18T13:53:49Z"}}
+{"text": "discussion: impact of ransomware trends on ports infrastructure. anyone seen similar?", "label": "ports", "meta": {"intent_hint": "discussion", "created_at": "2026-02-18T13:53:49Z"}}
+{"text": "planning creds for sale on ports systems tonight. target=ports. creds needed.", "label": "ports", "meta": {"intent_hint": "planning", "created_at": "2026-02-18T13:53:49Z"}}
+{"text": "football match tonight was great", "label": "upi", "meta": {"intent_hint": "irrelevant", "created_at": "2026-02-18T13:53:49Z"}}
+{"text": "planning cve on power_grid systems tonight. target=power_grid. creds needed.", "label": "power_grid", "meta": {"intent_hint": "planning", "created_at": "2026-02-18T13:53:49Z"}}
+{"text": "new movie was insane", "label": "airport", "meta": {"intent_hint": "irrelevant", "created_at": "2026-02-18T13:53:49Z"}}
+{"text": "planning pwn on other systems tonight. target=other. creds needed.", "label": "other", "meta": {"intent_hint": "planning", "created_at": "2026-02-18T13:53:49Z"}}
+{"text": "discussion: impact of breach trends on oil infrastructure. anyone seen similar?", "label": "oil", "meta": {"intent_hint": "discussion", "created_at": "2026-02-18T13:53:49Z"}}
+{"text": "college fest was lit", "label": "telecom", "meta": {"intent_hint": "irrelevant", "created_at": "2026-02-18T13:53:49Z"}}
+{"text": "planning 0day on upi systems tonight. target=upi. creds needed.", "label": "upi", "meta": {"intent_hint": "planning", "created_at": "2026-02-18T13:53:49Z"}}
+{"text": "railways leak drop: -----BEGIN PRIVATE KEY-----\nMIIE...FAKE\n-----END PRIVATE KEY-----", "label": "railways", "meta": {"intent_hint": "leak", "created_at": "2026-02-18T13:53:49Z"}}

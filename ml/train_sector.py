@@ -1,104 +1,87 @@
+# ml/train_sector.py
+from __future__ import annotations
+
 import json
 from pathlib import Path
-import joblib
-import numpy as np
-import warnings
+from typing import List, Dict, Any
+
+from joblib import dump
+from sklearn.pipeline import Pipeline
 from sklearn.feature_extraction.text import TfidfVectorizer
 from sklearn.linear_model import LogisticRegression
 from sklearn.multiclass import OneVsRestClassifier
 from sklearn.metrics import classification_report
 
-SECTOR_LABELS = [
-    "banking", "upi", "railways", "power_grid", "telecom",
-    "airport", "ports", "oil", "other"
-]
 
-DATA_TRAIN = Path("ml/data/train.jsonl")
-DATA_VAL   = Path("ml/data/val.jsonl")
-OUT_DIR    = Path("ml/models/sector_tfidf")
-OUT_DIR.mkdir(parents=True, exist_ok=True)
+DATA_TRAIN = Path("ml/data/sector_train.jsonl")
+DATA_VAL = Path("ml/data/sector_val.jsonl")
+OUT_DIR = Path("ml/models/sector_tfidf")
+OUT_MODEL = OUT_DIR / "model.joblib"
 
-def load_jsonl(fp: Path):
-    if not fp.exists():
-        raise FileNotFoundError(f"Missing file: {fp}")
-    rows = []
-    with fp.open("r", encoding="utf-8") as f:
-        for i, line in enumerate(f, start=1):
+ALL_SECTORS = ["telecom","banking","upi","power_grid","railways","airport","ports","oil","other"]
+
+
+def load_jsonl(path: Path) -> List[Dict[str, Any]]:
+    if not path.exists():
+        raise FileNotFoundError(f"Missing file: {path}")
+    rows: List[Dict[str, Any]] = []
+    with path.open("r", encoding="utf-8") as f:
+        for line in f:
             line = line.strip()
             if not line:
                 continue
-            try:
-                rows.append(json.loads(line))
-            except json.JSONDecodeError as e:
-                raise ValueError(f"Bad JSON on line {i} in {fp}: {e}") from e
+            rows.append(json.loads(line))
     return rows
 
-def multi_hot(sectors_list):
-    idx = {s: i for i, s in enumerate(SECTOR_LABELS)}
-    y = np.zeros((len(sectors_list), len(SECTOR_LABELS)), dtype=np.int32)
-
-    for r, sectors in enumerate(sectors_list):
-        if not sectors:
-            y[r, idx["other"]] = 1
-            continue
-
-        hit = False
-        for s in sectors:
-            if s in idx:
-                y[r, idx[s]] = 1
-                hit = True
-
-        if not hit:
-            y[r, idx["other"]] = 1
-
-    return y
-
-def warn_zero_positive_labels(y_mh):
-    positives = y_mh.sum(axis=0)
-    missing = [SECTOR_LABELS[i] for i, c in enumerate(positives) if c == 0]
-    if missing:
-        print(f"[WARN] These sector labels have 0 positive samples in TRAIN: {missing}")
-        print("       Add at least 2 examples each for better training/demo.")
 
 def main():
-    train = load_jsonl(DATA_TRAIN)
-    val   = load_jsonl(DATA_VAL)
+    OUT_DIR.mkdir(parents=True, exist_ok=True)
 
-    X_train = [r["text"] for r in train]
-    y_train = multi_hot([r.get("sectors", []) for r in train])
+    train_rows = load_jsonl(DATA_TRAIN)
+    val_rows = load_jsonl(DATA_VAL)
 
-    X_val = [r["text"] for r in val]
-    y_val = multi_hot([r.get("sectors", []) for r in val])
+    X_train = [r["text"] for r in train_rows]
+    y_train = [r["label"] for r in train_rows]
 
-    warn_zero_positive_labels(y_train)
+    X_val = [r["text"] for r in val_rows]
+    y_val = [r["label"] for r in val_rows]
 
-    vec = TfidfVectorizer(
-        lowercase=True,
-        ngram_range=(1, 2),
-        min_df=1,
-        max_features=60000,
-        sublinear_tf=True
+    print(f"[Sector] Loaded train={len(X_train)} val={len(X_val)} from jsonl")
+
+    missing = sorted(list(set(ALL_SECTORS) - set(y_val)))
+    if missing:
+        print(f"[WARN] Missing sector labels in val: {missing}")
+
+    base_lr = LogisticRegression(
+        max_iter=3000,
+        class_weight="balanced",
+        solver="liblinear"
     )
 
-    Xtr = vec.fit_transform(X_train)
-    Xva = vec.transform(X_val)
+    clf = Pipeline([
+        ("tfidf", TfidfVectorizer(
+            ngram_range=(1, 2),
+            min_df=2,
+            max_df=0.95,
+            sublinear_tf=True,
+            strip_accents="unicode"
+        )),
+        ("clf", OneVsRestClassifier(base_lr))
+    ])
 
-    # Balanced helps recall/confidence when you have few positives per sector
-    base = LogisticRegression(max_iter=2000, class_weight="balanced")
-    clf = OneVsRestClassifier(base)
+    clf.fit(X_train, y_train)
 
-    with warnings.catch_warnings():
-        warnings.simplefilter("ignore", category=UserWarning)
-        clf.fit(Xtr, y_train)
+    pred = clf.predict(X_val)
+    print(classification_report(y_val, pred, labels=ALL_SECTORS, zero_division=0))
 
-    preds = clf.predict(Xva)
-    print(classification_report(y_val, preds, target_names=SECTOR_LABELS, zero_division=0))
+    dump({
+        "pipeline": clf,
+        "labels": ALL_SECTORS,
+        "task": "sector"
+    }, OUT_MODEL)
 
-    joblib.dump(
-        {"vectorizer": vec, "clf": clf, "sector_labels": SECTOR_LABELS},
-        OUT_DIR / "model.joblib"
-    )
-    print(f"Saved -> {OUT_DIR / 'model.joblib'}")
+    print(f"Saved -> {OUT_MODEL}")
+
 
 if __name__ == "__main__":
     main()
