@@ -1,150 +1,150 @@
-{"text": "planning 0day on other systems tonight. target=other. creds needed.", "label": "planning", "meta": {"sector_hint": "other", "created_at": "2026-02-18T13:53:49Z"}}
-{"text": "planning breach on airport systems tonight. target=airport. creds needed.", "label": "planning", "meta": {"sector_hint": "airport", "created_at": "2026-02-18T13:53:49Z"}}
-{"text": "discussion: impact of cve trends on telecom infrastructure. anyone seen similar?", "label": "discussion", "meta": {"sector_hint": "telecom", "created_at": "2026-02-18T13:53:49Z"}}
-{"text": "telecom leak drop: Authorization: Bearer ghp_FAKEFAKEFAKEFAKEFAKEFAKEFAKEFAKEFAKE", "label": "leak", "meta": {"sector_hint": "telecom", "created_at": "2026-02-18T13:53:49Z"}}
-{"text": "telecom leak drop: password=hunter2", "label": "leak", "meta": {"sector_hint": "telecom", "created_at": "2026-02-18T13:53:49Z"}}
-{"text": "new movie was insane", "label": "irrelevant", "meta": {"sector_hint": "oil", "created_at": "2026-02-18T13:53:49Z"}}
-{"text": "planning botnet on oil systems tonight. target=oil. creds needed.", "label": "planning", "meta": {"sector_hint": "oil", "created_at": "2026-02-18T13:53:49Z"}}
-{"text": "college fest was lit", "label": "irrelevant", "meta": {"sector_hint": "railways", "created_at": "2026-02-18T13:53:49Z"}}
-{"text": "college fest was lit", "label": "irrelevant", "meta": {"sector_hint": "power_grid", "created_at": "2026-02-18T13:53:49Z"}}
-{"text": "discussion: impact of ddos trends on ports infrastructure. anyone seen similar?", "label": "discussion", "meta": {"sector_hint": "ports", "created_at": "2026-02-18T13:53:49Z"}}
-{"text": "planning 0day on airport systems tonight. target=airport. creds needed.", "label": "planning", "meta": {"sector_hint": "airport", "created_at": "2026-02-18T13:53:49Z"}}
-{"text": "discussion: impact of breach trends on banking infrastructure. anyone seen similar?", "label": "discussion", "meta": {"sector_hint": "banking", "created_at": "2026-02-18T13:53:49Z"}}
-{"text": "planning pwn on telecom systems tonight. target=telecom. creds needed.", "label": "planning", "meta": {"sector_hint": "telecom", "created_at": "2026-02-18T13:53:49Z"}}
-{"text": "ports leak drop: -----BEGIN PRIVATE KEY-----\nMIIE...FAKE\n-----END PRIVATE KEY-----", "label": "leak", "meta": {"sector_hint": "ports", "created_at": "2026-02-18T13:53:49Z"}}
-{"text": "planning exploit on power_grid systems tonight. target=power_grid. creds needed.", "label": "planning", "meta": {"sector_hint": "power_grid", "created_at": "2026-02-18T13:53:49Z"}}
-{"text": "football match tonight was great", "label": "irrelevant", "meta": {"sector_hint": "oil", "created_at": "2026-02-18T13:53:49Z"}}
-{"text": "discussion: impact of cve trends on telecom infrastructure. anyone seen similar?", "label": "discussion", "meta": {"sector_hint": "telecom", "created_at": "2026-02-18T13:53:49Z"}}
-{"text": "planning pwn on telecom systems tonight. target=telecom. creds needed.", "label": "planning", "meta": {"sector_hint": "telecom", "created_at": "2026-02-18T13:53:49Z"}}
-{"text": "discussion: impact of exploit trends on power_grid infrastructure. anyone seen similar?", "label": "discussion", "meta": {"sector_hint": "power_grid", "created_at": "2026-02-18T13:53:49Z"}}
-{"text": "discussion: impact of breach trends on banking infrastructure. anyone seen similar?", "label": "discussion", "meta": {"sector_hint": "banking", "created_at": "2026-02-18T13:53:49Z"}}
-{"text": "airport leak drop: postgres://user:pass@host:5432/db", "label": "leak", "meta": {"sector_hint": "airport", "created_at": "2026-02-18T13:53:49Z"}}
-{"text": "planning 0day on other systems tonight. target=other. creds needed.", "label": "planning", "meta": {"sector_hint": "other", "created_at": "2026-02-18T13:53:49Z"}}
-{"text": "discussion: impact of ransomware trends on power_grid infrastructure. anyone seen similar?", "label": "discussion", "meta": {"sector_hint": "power_grid", "created_at": "2026-02-18T13:53:49Z"}}
-{"text": "planning take down on banking systems tonight. target=banking. creds needed.", "label": "planning", "meta": {"sector_hint": "banking", "created_at": "2026-02-18T13:53:49Z"}}
-{"text": "power_grid leak drop: postgres://user:pass@host:5432/db", "label": "leak", "meta": {"sector_hint": "power_grid", "created_at": "2026-02-18T13:53:49Z"}}
-{"text": "airport leak drop: Authorization: Bearer ghp_FAKEFAKEFAKEFAKEFAKEFAKEFAKEFAKEFAKE", "label": "leak", "meta": {"sector_hint": "airport", "created_at": "2026-02-18T13:53:49Z"}}
-{"text": "planning creds for sale on ports systems tonight. target=ports. creds needed.", "label": "planning", "meta": {"sector_hint": "ports", "created_at": "2026-02-18T13:53:49Z"}}
-{"text": "banking leak drop: postgres://user:pass@host:5432/db", "label": "leak", "meta": {"sector_hint": "banking", "created_at": "2026-02-18T13:53:49Z"}}
-{"text": "new movie was insane", "label": "irrelevant", "meta": {"sector_hint": "banking", "created_at": "2026-02-18T13:53:49Z"}}
-{"text": "discussion: impact of exploit trends on upi infrastructure. anyone seen similar?", "label": "discussion", "meta": {"sector_hint": "upi", "created_at": "2026-02-18T13:53:49Z"}}
-{"text": "planning dump on railways systems tonight. target=railways. creds needed.", "label": "planning", "meta": {"sector_hint": "railways", "created_at": "2026-02-18T13:53:49Z"}}
-{"text": "planning sell access on banking systems tonight. target=banking. creds needed.", "label": "planning", "meta": {"sector_hint": "banking", "created_at": "2026-02-18T13:53:49Z"}}
-{"text": "upi leak drop: postgres://user:pass@host:5432/db", "label": "leak", "meta": {"sector_hint": "upi", "created_at": "2026-02-18T13:53:49Z"}}
-{"text": "planning creds for sale on power_grid systems tonight. target=power_grid. creds needed.", "label": "planning", "meta": {"sector_hint": "power_grid", "created_at": "2026-02-18T13:53:49Z"}}
-{"text": "planning ddos on railways systems tonight. target=railways. creds needed.", "label": "planning", "meta": {"sector_hint": "railways", "created_at": "2026-02-18T13:53:49Z"}}
-{"text": "anyone playing valorant?", "label": "irrelevant", "meta": {"sector_hint": "banking", "created_at": "2026-02-18T13:53:49Z"}}
-{"text": "we just owned oil. proof soon. access confirmed.", "label": "claim", "meta": {"sector_hint": "oil", "created_at": "2026-02-18T13:53:49Z"}}
-{"text": "planning breach on upi systems tonight. target=upi. creds needed.", "label": "planning", "meta": {"sector_hint": "upi", "created_at": "2026-02-18T13:53:49Z"}}
-{"text": "we just breach ports. proof soon. access confirmed.", "label": "claim", "meta": {"sector_hint": "ports", "created_at": "2026-02-18T13:53:49Z"}}
-{"text": "new movie was insane", "label": "irrelevant", "meta": {"sector_hint": "telecom", "created_at": "2026-02-18T13:53:49Z"}}
-{"text": "planning pwn on ports systems tonight. target=ports. creds needed.", "label": "planning", "meta": {"sector_hint": "ports", "created_at": "2026-02-18T13:53:49Z"}}
-{"text": "upi leak drop: api_key=AKIAFAKEFAKEFAKEFAKE", "label": "leak", "meta": {"sector_hint": "upi", "created_at": "2026-02-18T13:53:49Z"}}
-{"text": "planning creds for sale on railways systems tonight. target=railways. creds needed.", "label": "planning", "meta": {"sector_hint": "railways", "created_at": "2026-02-18T13:53:49Z"}}
-{"text": "other leak drop: api_key=AKIAFAKEFAKEFAKEFAKE", "label": "leak", "meta": {"sector_hint": "other", "created_at": "2026-02-18T13:53:49Z"}}
-{"text": "planning exploit on airport systems tonight. target=airport. creds needed.", "label": "planning", "meta": {"sector_hint": "airport", "created_at": "2026-02-18T13:53:49Z"}}
-{"text": "airport leak drop: api_key=AKIAFAKEFAKEFAKEFAKE", "label": "leak", "meta": {"sector_hint": "airport", "created_at": "2026-02-18T13:53:49Z"}}
-{"text": "railways leak drop: password=hunter2", "label": "leak", "meta": {"sector_hint": "railways", "created_at": "2026-02-18T13:53:49Z"}}
-{"text": "discussion: impact of exploit trends on airport infrastructure. anyone seen similar?", "label": "discussion", "meta": {"sector_hint": "airport", "created_at": "2026-02-18T13:53:49Z"}}
-{"text": "planning botnet on railways systems tonight. target=railways. creds needed.", "label": "planning", "meta": {"sector_hint": "railways", "created_at": "2026-02-18T13:53:49Z"}}
-{"text": "planning steal on airport systems tonight. target=airport. creds needed.", "label": "planning", "meta": {"sector_hint": "airport", "created_at": "2026-02-18T13:53:49Z"}}
-{"text": "planning sell access on oil systems tonight. target=oil. creds needed.", "label": "planning", "meta": {"sector_hint": "oil", "created_at": "2026-02-18T13:53:49Z"}}
-{"text": "discussion: impact of ddos trends on upi infrastructure. anyone seen similar?", "label": "discussion", "meta": {"sector_hint": "upi", "created_at": "2026-02-18T13:53:49Z"}}
-{"text": "we just dump airport. proof soon. access confirmed.", "label": "claim", "meta": {"sector_hint": "airport", "created_at": "2026-02-18T13:53:49Z"}}
-{"text": "ports leak drop: password=hunter2", "label": "leak", "meta": {"sector_hint": "ports", "created_at": "2026-02-18T13:53:49Z"}}
-{"text": "planning dump on oil systems tonight. target=oil. creds needed.", "label": "planning", "meta": {"sector_hint": "oil", "created_at": "2026-02-18T13:53:49Z"}}
-{"text": "planning cve on oil systems tonight. target=oil. creds needed.", "label": "planning", "meta": {"sector_hint": "oil", "created_at": "2026-02-18T13:53:49Z"}}
-{"text": "we just dump other. proof soon. access confirmed.", "label": "claim", "meta": {"sector_hint": "other", "created_at": "2026-02-18T13:53:49Z"}}
-{"text": "we just breach telecom. proof soon. access confirmed.", "label": "claim", "meta": {"sector_hint": "telecom", "created_at": "2026-02-18T13:53:49Z"}}
-{"text": "we just dump oil. proof soon. access confirmed.", "label": "claim", "meta": {"sector_hint": "oil", "created_at": "2026-02-18T13:53:49Z"}}
-{"text": "we just dump railways. proof soon. access confirmed.", "label": "claim", "meta": {"sector_hint": "railways", "created_at": "2026-02-18T13:53:49Z"}}
-{"text": "we just dump other. proof soon. access confirmed.", "label": "claim", "meta": {"sector_hint": "other", "created_at": "2026-02-18T13:53:49Z"}}
-{"text": "discussion: impact of exploit trends on ports infrastructure. anyone seen similar?", "label": "discussion", "meta": {"sector_hint": "ports", "created_at": "2026-02-18T13:53:49Z"}}
-{"text": "need help with linux wifi", "label": "irrelevant", "meta": {"sector_hint": "airport", "created_at": "2026-02-18T13:53:49Z"}}
-{"text": "discussion: impact of ransomware trends on banking infrastructure. anyone seen similar?", "label": "discussion", "meta": {"sector_hint": "banking", "created_at": "2026-02-18T13:53:49Z"}}
-{"text": "discussion: impact of exploit trends on airport infrastructure. anyone seen similar?", "label": "discussion", "meta": {"sector_hint": "airport", "created_at": "2026-02-18T13:53:49Z"}}
-{"text": "ports leak drop: password=hunter2", "label": "leak", "meta": {"sector_hint": "ports", "created_at": "2026-02-18T13:53:49Z"}}
-{"text": "planning pwn on railways systems tonight. target=railways. creds needed.", "label": "planning", "meta": {"sector_hint": "railways", "created_at": "2026-02-18T13:53:49Z"}}
-{"text": "banking leak drop: -----BEGIN PRIVATE KEY-----\nMIIE...FAKE\n-----END PRIVATE KEY-----", "label": "leak", "meta": {"sector_hint": "banking", "created_at": "2026-02-18T13:53:49Z"}}
-{"text": "discussion: impact of ransomware trends on airport infrastructure. anyone seen similar?", "label": "discussion", "meta": {"sector_hint": "airport", "created_at": "2026-02-18T13:53:49Z"}}
-{"text": "college fest was lit", "label": "irrelevant", "meta": {"sector_hint": "airport", "created_at": "2026-02-18T13:53:49Z"}}
-{"text": "planning take down on power_grid systems tonight. target=power_grid. creds needed.", "label": "planning", "meta": {"sector_hint": "power_grid", "created_at": "2026-02-18T13:53:49Z"}}
-{"text": "need help with linux wifi", "label": "irrelevant", "meta": {"sector_hint": "banking", "created_at": "2026-02-18T13:53:49Z"}}
-{"text": "discussion: impact of breach trends on ports infrastructure. anyone seen similar?", "label": "discussion", "meta": {"sector_hint": "ports", "created_at": "2026-02-18T13:53:49Z"}}
-{"text": "we just dump telecom. proof soon. access confirmed.", "label": "claim", "meta": {"sector_hint": "telecom", "created_at": "2026-02-18T13:53:49Z"}}
-{"text": "discussion: impact of ddos trends on oil infrastructure. anyone seen similar?", "label": "discussion", "meta": {"sector_hint": "oil", "created_at": "2026-02-18T13:53:49Z"}}
-{"text": "upi leak drop: postgres://user:pass@host:5432/db", "label": "leak", "meta": {"sector_hint": "upi", "created_at": "2026-02-18T13:53:49Z"}}
-{"text": "discussion: impact of breach trends on ports infrastructure. anyone seen similar?", "label": "discussion", "meta": {"sector_hint": "ports", "created_at": "2026-02-18T13:53:49Z"}}
-{"text": "we just dump other. proof soon. access confirmed.", "label": "claim", "meta": {"sector_hint": "other", "created_at": "2026-02-18T13:53:49Z"}}
-{"text": "planning ddos on telecom systems tonight. target=telecom. creds needed.", "label": "planning", "meta": {"sector_hint": "telecom", "created_at": "2026-02-18T13:53:49Z"}}
-{"text": "telecom leak drop: password=hunter2", "label": "leak", "meta": {"sector_hint": "telecom", "created_at": "2026-02-18T13:53:49Z"}}
-{"text": "planning owned on telecom systems tonight. target=telecom. creds needed.", "label": "planning", "meta": {"sector_hint": "telecom", "created_at": "2026-02-18T13:53:49Z"}}
-{"text": "planning botnet on railways systems tonight. target=railways. creds needed.", "label": "planning", "meta": {"sector_hint": "railways", "created_at": "2026-02-18T13:53:49Z"}}
-{"text": "oil leak drop: -----BEGIN PRIVATE KEY-----\nMIIE...FAKE\n-----END PRIVATE KEY-----", "label": "leak", "meta": {"sector_hint": "oil", "created_at": "2026-02-18T13:53:49Z"}}
-{"text": "college fest was lit", "label": "irrelevant", "meta": {"sector_hint": "oil", "created_at": "2026-02-18T13:53:49Z"}}
-{"text": "discussion: impact of cve trends on oil infrastructure. anyone seen similar?", "label": "discussion", "meta": {"sector_hint": "oil", "created_at": "2026-02-18T13:53:49Z"}}
-{"text": "airport leak drop: -----BEGIN PRIVATE KEY-----\nMIIE...FAKE\n-----END PRIVATE KEY-----", "label": "leak", "meta": {"sector_hint": "airport", "created_at": "2026-02-18T13:53:49Z"}}
-{"text": "discussion: impact of cve trends on telecom infrastructure. anyone seen similar?", "label": "discussion", "meta": {"sector_hint": "telecom", "created_at": "2026-02-18T13:53:49Z"}}
-{"text": "planning creds for sale on airport systems tonight. target=airport. creds needed.", "label": "planning", "meta": {"sector_hint": "airport", "created_at": "2026-02-18T13:53:49Z"}}
-{"text": "we just owned oil. proof soon. access confirmed.", "label": "claim", "meta": {"sector_hint": "oil", "created_at": "2026-02-18T13:53:49Z"}}
-{"text": "planning breach on telecom systems tonight. target=telecom. creds needed.", "label": "planning", "meta": {"sector_hint": "telecom", "created_at": "2026-02-18T13:53:49Z"}}
-{"text": "oil leak drop: -----BEGIN PRIVATE KEY-----\nMIIE...FAKE\n-----END PRIVATE KEY-----", "label": "leak", "meta": {"sector_hint": "oil", "created_at": "2026-02-18T13:53:49Z"}}
-{"text": "discussion: impact of cve trends on airport infrastructure. anyone seen similar?", "label": "discussion", "meta": {"sector_hint": "airport", "created_at": "2026-02-18T13:53:49Z"}}
-{"text": "we just dump oil. proof soon. access confirmed.", "label": "claim", "meta": {"sector_hint": "oil", "created_at": "2026-02-18T13:53:49Z"}}
-{"text": "we just leak oil. proof soon. access confirmed.", "label": "claim", "meta": {"sector_hint": "oil", "created_at": "2026-02-18T13:53:49Z"}}
-{"text": "planning dump on railways systems tonight. target=railways. creds needed.", "label": "planning", "meta": {"sector_hint": "railways", "created_at": "2026-02-18T13:53:49Z"}}
-{"text": "planning ransomware on oil systems tonight. target=oil. creds needed.", "label": "planning", "meta": {"sector_hint": "oil", "created_at": "2026-02-18T13:53:49Z"}}
-{"text": "power_grid leak drop: postgres://user:pass@host:5432/db", "label": "leak", "meta": {"sector_hint": "power_grid", "created_at": "2026-02-18T13:53:49Z"}}
-{"text": "discussion: impact of exploit trends on railways infrastructure. anyone seen similar?", "label": "discussion", "meta": {"sector_hint": "railways", "created_at": "2026-02-18T13:53:49Z"}}
-{"text": "need help with linux wifi", "label": "irrelevant", "meta": {"sector_hint": "ports", "created_at": "2026-02-18T13:53:49Z"}}
-{"text": "planning sell access on ports systems tonight. target=ports. creds needed.", "label": "planning", "meta": {"sector_hint": "ports", "created_at": "2026-02-18T13:53:49Z"}}
-{"text": "planning steal on power_grid systems tonight. target=power_grid. creds needed.", "label": "planning", "meta": {"sector_hint": "power_grid", "created_at": "2026-02-18T13:53:49Z"}}
-{"text": "we just leak airport. proof soon. access confirmed.", "label": "claim", "meta": {"sector_hint": "airport", "created_at": "2026-02-18T13:53:49Z"}}
-{"text": "we just breach oil. proof soon. access confirmed.", "label": "claim", "meta": {"sector_hint": "oil", "created_at": "2026-02-18T13:53:49Z"}}
-{"text": "we just dump ports. proof soon. access confirmed.", "label": "claim", "meta": {"sector_hint": "ports", "created_at": "2026-02-18T13:53:49Z"}}
-{"text": "discussion: impact of ransomware trends on telecom infrastructure. anyone seen similar?", "label": "discussion", "meta": {"sector_hint": "telecom", "created_at": "2026-02-18T13:53:49Z"}}
-{"text": "planning owned on oil systems tonight. target=oil. creds needed.", "label": "planning", "meta": {"sector_hint": "oil", "created_at": "2026-02-18T13:53:49Z"}}
-{"text": "planning breach on banking systems tonight. target=banking. creds needed.", "label": "planning", "meta": {"sector_hint": "banking", "created_at": "2026-02-18T13:53:49Z"}}
-{"text": "planning breach on upi systems tonight. target=upi. creds needed.", "label": "planning", "meta": {"sector_hint": "upi", "created_at": "2026-02-18T13:53:49Z"}}
-{"text": "discussion: impact of cve trends on telecom infrastructure. anyone seen similar?", "label": "discussion", "meta": {"sector_hint": "telecom", "created_at": "2026-02-18T13:53:49Z"}}
-{"text": "telecom leak drop: api_key=AKIAFAKEFAKEFAKEFAKE", "label": "leak", "meta": {"sector_hint": "telecom", "created_at": "2026-02-18T13:53:49Z"}}
-{"text": "we just breach telecom. proof soon. access confirmed.", "label": "claim", "meta": {"sector_hint": "telecom", "created_at": "2026-02-18T13:53:49Z"}}
-{"text": "banking leak drop: postgres://user:pass@host:5432/db", "label": "leak", "meta": {"sector_hint": "banking", "created_at": "2026-02-18T13:53:49Z"}}
-{"text": "we just owned power_grid. proof soon. access confirmed.", "label": "claim", "meta": {"sector_hint": "power_grid", "created_at": "2026-02-18T13:53:49Z"}}
-{"text": "airport leak drop: Authorization: Bearer ghp_FAKEFAKEFAKEFAKEFAKEFAKEFAKEFAKEFAKE", "label": "leak", "meta": {"sector_hint": "airport", "created_at": "2026-02-18T13:53:49Z"}}
-{"text": "planning sell access on other systems tonight. target=other. creds needed.", "label": "planning", "meta": {"sector_hint": "other", "created_at": "2026-02-18T13:53:49Z"}}
-{"text": "we just dump other. proof soon. access confirmed.", "label": "claim", "meta": {"sector_hint": "other", "created_at": "2026-02-18T13:53:49Z"}}
-{"text": "anyone playing valorant?", "label": "irrelevant", "meta": {"sector_hint": "upi", "created_at": "2026-02-18T13:53:49Z"}}
-{"text": "anyone playing valorant?", "label": "irrelevant", "meta": {"sector_hint": "oil", "created_at": "2026-02-18T13:53:49Z"}}
-{"text": "planning botnet on oil systems tonight. target=oil. creds needed.", "label": "planning", "meta": {"sector_hint": "oil", "created_at": "2026-02-18T13:53:49Z"}}
-{"text": "we just owned ports. proof soon. access confirmed.", "label": "claim", "meta": {"sector_hint": "ports", "created_at": "2026-02-18T13:53:49Z"}}
-{"text": "upi leak drop: postgres://user:pass@host:5432/db", "label": "leak", "meta": {"sector_hint": "upi", "created_at": "2026-02-18T13:53:49Z"}}
-{"text": "we just leak power_grid. proof soon. access confirmed.", "label": "claim", "meta": {"sector_hint": "power_grid", "created_at": "2026-02-18T13:53:49Z"}}
-{"text": "planning pwn on other systems tonight. target=other. creds needed.", "label": "planning", "meta": {"sector_hint": "other", "created_at": "2026-02-18T13:53:49Z"}}
-{"text": "power_grid leak drop: password=hunter2", "label": "leak", "meta": {"sector_hint": "power_grid", "created_at": "2026-02-18T13:53:49Z"}}
-{"text": "upi leak drop: -----BEGIN PRIVATE KEY-----\nMIIE...FAKE\n-----END PRIVATE KEY-----", "label": "leak", "meta": {"sector_hint": "upi", "created_at": "2026-02-18T13:53:49Z"}}
-{"text": "discussion: impact of cve trends on other infrastructure. anyone seen similar?", "label": "discussion", "meta": {"sector_hint": "other", "created_at": "2026-02-18T13:53:49Z"}}
-{"text": "planning owned on power_grid systems tonight. target=power_grid. creds needed.", "label": "planning", "meta": {"sector_hint": "power_grid", "created_at": "2026-02-18T13:53:49Z"}}
-{"text": "discussion: impact of exploit trends on oil infrastructure. anyone seen similar?", "label": "discussion", "meta": {"sector_hint": "oil", "created_at": "2026-02-18T13:53:49Z"}}
-{"text": "planning pwn on banking systems tonight. target=banking. creds needed.", "label": "planning", "meta": {"sector_hint": "banking", "created_at": "2026-02-18T13:53:49Z"}}
-{"text": "discussion: impact of breach trends on ports infrastructure. anyone seen similar?", "label": "discussion", "meta": {"sector_hint": "ports", "created_at": "2026-02-18T13:53:49Z"}}
-{"text": "planning dump on upi systems tonight. target=upi. creds needed.", "label": "planning", "meta": {"sector_hint": "upi", "created_at": "2026-02-18T13:53:49Z"}}
-{"text": "need help with linux wifi", "label": "irrelevant", "meta": {"sector_hint": "ports", "created_at": "2026-02-18T13:53:49Z"}}
-{"text": "planning pwn on other systems tonight. target=other. creds needed.", "label": "planning", "meta": {"sector_hint": "other", "created_at": "2026-02-18T13:53:49Z"}}
-{"text": "we just breach power_grid. proof soon. access confirmed.", "label": "claim", "meta": {"sector_hint": "power_grid", "created_at": "2026-02-18T13:53:49Z"}}
-{"text": "we just breach airport. proof soon. access confirmed.", "label": "claim", "meta": {"sector_hint": "airport", "created_at": "2026-02-18T13:53:49Z"}}
-{"text": "power_grid leak drop: postgres://user:pass@host:5432/db", "label": "leak", "meta": {"sector_hint": "power_grid", "created_at": "2026-02-18T13:53:49Z"}}
-{"text": "we just leak power_grid. proof soon. access confirmed.", "label": "claim", "meta": {"sector_hint": "power_grid", "created_at": "2026-02-18T13:53:49Z"}}
-{"text": "discussion: impact of ddos trends on power_grid infrastructure. anyone seen similar?", "label": "discussion", "meta": {"sector_hint": "power_grid", "created_at": "2026-02-18T13:53:49Z"}}
-{"text": "we just leak other. proof soon. access confirmed.", "label": "claim", "meta": {"sector_hint": "other", "created_at": "2026-02-18T13:53:49Z"}}
-{"text": "planning sell access on power_grid systems tonight. target=power_grid. creds needed.", "label": "planning", "meta": {"sector_hint": "power_grid", "created_at": "2026-02-18T13:53:49Z"}}
-{"text": "ports leak drop: Authorization: Bearer ghp_FAKEFAKEFAKEFAKEFAKEFAKEFAKEFAKEFAKE", "label": "leak", "meta": {"sector_hint": "ports", "created_at": "2026-02-18T13:53:49Z"}}
-{"text": "airport leak drop: password=hunter2", "label": "leak", "meta": {"sector_hint": "airport", "created_at": "2026-02-18T13:53:49Z"}}
-{"text": "other leak drop: password=hunter2", "label": "leak", "meta": {"sector_hint": "other", "created_at": "2026-02-18T13:53:49Z"}}
-{"text": "we just owned telecom. proof soon. access confirmed.", "label": "claim", "meta": {"sector_hint": "telecom", "created_at": "2026-02-18T13:53:49Z"}}
-{"text": "planning take down on banking systems tonight. target=banking. creds needed.", "label": "planning", "meta": {"sector_hint": "banking", "created_at": "2026-02-18T13:53:49Z"}}
-{"text": "planning dump on banking systems tonight. target=banking. creds needed.", "label": "planning", "meta": {"sector_hint": "banking", "created_at": "2026-02-18T13:53:49Z"}}
-{"text": "planning dump on power_grid systems tonight. target=power_grid. creds needed.", "label": "planning", "meta": {"sector_hint": "power_grid", "created_at": "2026-02-18T13:53:49Z"}}
-{"text": "telecom leak drop: password=hunter2", "label": "leak", "meta": {"sector_hint": "telecom", "created_at": "2026-02-18T13:53:49Z"}}
-{"text": "we just breach oil. proof soon. access confirmed.", "label": "claim", "meta": {"sector_hint": "oil", "created_at": "2026-02-18T13:53:49Z"}}
-{"text": "telecom leak drop: api_key=AKIAFAKEFAKEFAKEFAKE", "label": "leak", "meta": {"sector_hint": "telecom", "created_at": "2026-02-18T13:53:49Z"}}
+{"text": "tower connection string exposed: mongodb://user:pass@db.example.com:27017/prod", "label": "leak", "created_at": "2026-02-18T19:06:55Z", "source": "synthetic_chatter", "url": "local://synthetic/547"}
+{"text": "india config exposed: AWS_ACCESS_KEY_ID=AKIAFAKEFAKEFAKEFAKE AWS_SECRET_ACCESS_KEY=FAKESECRET1234567890", "label": "leak", "created_at": "2026-02-18T19:06:55Z", "source": "synthetic_chatter", "url": "local://synthetic/514"}
+{"text": "planning ransomware on airline tomorrow. need vuln chain.", "label": "planning", "created_at": "2026-02-18T19:06:55Z", "source": "synthetic_chatter", "url": "local://synthetic/131"}
+{"text": "telecom creds leaked. username=admin password=hunter2 (fake).", "label": "leak", "created_at": "2026-02-18T19:06:55Z", "source": "synthetic_chatter", "url": "local://synthetic/634"}
+{"text": "college fest schedule", "label": "irrelevant", "created_at": "2026-02-18T19:06:55Z", "source": "synthetic_chatter", "url": "local://synthetic/966"}
+{"text": "weather is nice today", "label": "irrelevant", "created_at": "2026-02-18T19:06:55Z", "source": "synthetic_chatter", "url": "local://synthetic/920"}
+{"text": "core banking key leaked:\n-----BEGIN PRIVATE KEY-----\nMIIE...FAKE\n-----END PRIVATE KEY-----", "label": "leak", "created_at": "2026-02-18T19:06:55Z", "source": "synthetic_chatter", "url": "local://synthetic/692"}
+{"text": "we dumped critical. sample data uploaded. DM for details.", "label": "claim", "created_at": "2026-02-18T19:06:55Z", "source": "synthetic_chatter", "url": "local://synthetic/362"}
+{"text": "planning take down on container terminal in 3 hours. zero-day ready.", "label": "planning", "created_at": "2026-02-18T19:06:55Z", "source": "synthetic_chatter", "url": "local://synthetic/271"}
+{"text": "we leaked 5g. sample data uploaded. DM for details.", "label": "claim", "created_at": "2026-02-18T19:06:55Z", "source": "synthetic_chatter", "url": "local://synthetic/404"}
+{"text": "planning dump on railways in 3 hours. zero-day ready.", "label": "planning", "created_at": "2026-02-18T19:06:55Z", "source": "synthetic_chatter", "url": "local://synthetic/152"}
+{"text": "discussion: CVE-2022-22965 affecting harbor. is this exploitable in prod?", "label": "discussion", "created_at": "2026-02-18T19:06:55Z", "source": "synthetic_chatter", "url": "local://synthetic/823"}
+{"text": "planning take down on atm tomorrow. have creds.", "label": "planning", "created_at": "2026-02-18T19:06:55Z", "source": "synthetic_chatter", "url": "local://synthetic/239"}
+{"text": "planning ddos on power grid at 2am. buy access.", "label": "planning", "created_at": "2026-02-18T19:06:55Z", "source": "synthetic_chatter", "url": "local://synthetic/30"}
+{"text": "substation config exposed: AWS_ACCESS_KEY_ID=AKIAFAKEFAKEFAKEFAKE AWS_SECRET_ACCESS_KEY=FAKESECRET1234567890", "label": "leak", "created_at": "2026-02-18T19:06:55Z", "source": "synthetic_chatter", "url": "local://synthetic/544"}
+{"text": "discussion: CVE-2024-3094 affecting rail. is this exploitable in prod?", "label": "discussion", "created_at": "2026-02-18T19:06:55Z", "source": "synthetic_chatter", "url": "local://synthetic/814"}
+{"text": "upi config exposed: AWS_ACCESS_KEY_ID=AKIAFAKEFAKEFAKEFAKE AWS_SECRET_ACCESS_KEY=FAKESECRET1234567890", "label": "leak", "created_at": "2026-02-18T19:06:55Z", "source": "synthetic_chatter", "url": "local://synthetic/582"}
+{"text": "planning exploit on bank tomorrow. have creds.", "label": "planning", "created_at": "2026-02-18T19:06:55Z", "source": "synthetic_chatter", "url": "local://synthetic/179"}
+{"text": "swift key leaked:\n-----BEGIN PRIVATE KEY-----\nMIIE...FAKE\n-----END PRIVATE KEY-----", "label": "leak", "created_at": "2026-02-18T19:06:55Z", "source": "synthetic_chatter", "url": "local://synthetic/729"}
+{"text": "discussion: CVE-2022-22965 affecting substation. PoC link?", "label": "discussion", "created_at": "2026-02-18T19:06:55Z", "source": "synthetic_chatter", "url": "local://synthetic/892"}
+{"text": "planning ddos on pipeline in 3 hours. buy access.", "label": "planning", "created_at": "2026-02-18T19:06:55Z", "source": "synthetic_chatter", "url": "local://synthetic/40"}
+{"text": "railways API leak: Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.FAKE.SIGNATURE", "label": "leak", "created_at": "2026-02-18T19:06:55Z", "source": "synthetic_chatter", "url": "local://synthetic/730"}
+{"text": "we exfiltrated power grid. panel screenshot. DM for details.", "label": "claim", "created_at": "2026-02-18T19:06:55Z", "source": "synthetic_chatter", "url": "local://synthetic/444"}
+{"text": "weather is nice today", "label": "irrelevant", "created_at": "2026-02-18T19:06:55Z", "source": "synthetic_chatter", "url": "local://synthetic/976"}
+{"text": "we leaked railways. db rows shown. DM for details.", "label": "claim", "created_at": "2026-02-18T19:06:55Z", "source": "synthetic_chatter", "url": "local://synthetic/413"}
+{"text": "we dumped airline. hashes available. DM for details.", "label": "claim", "created_at": "2026-02-18T19:06:55Z", "source": "synthetic_chatter", "url": "local://synthetic/418"}
+{"text": "random memes", "label": "irrelevant", "created_at": "2026-02-18T19:06:55Z", "source": "synthetic_chatter", "url": "local://synthetic/934"}
+{"text": "planning ransomware on airline at 2am. zero-day ready.", "label": "planning", "created_at": "2026-02-18T19:06:55Z", "source": "synthetic_chatter", "url": "local://synthetic/246"}
+{"text": "reservation connection string exposed: mongodb://user:pass@db.example.com:27017/prod", "label": "leak", "created_at": "2026-02-18T19:06:55Z", "source": "synthetic_chatter", "url": "local://synthetic/571"}
+{"text": "discussion: CVE-2021-44228 affecting upi switch. is this exploitable in prod?", "label": "discussion", "created_at": "2026-02-18T19:06:55Z", "source": "synthetic_chatter", "url": "local://synthetic/867"}
+{"text": "random memes", "label": "irrelevant", "created_at": "2026-02-18T19:06:55Z", "source": "synthetic_chatter", "url": "local://synthetic/990"}
+{"text": "we owned reservation. sample data uploaded. DM for details.", "label": "claim", "created_at": "2026-02-18T19:06:55Z", "source": "synthetic_chatter", "url": "local://synthetic/414"}
+{"text": "discussion: CVE-2024-3094 affecting dock. anyone tested?", "label": "discussion", "created_at": "2026-02-18T19:06:55Z", "source": "synthetic_chatter", "url": "local://synthetic/831"}
+{"text": "planning ddos on airport tonight. zero-day ready.", "label": "planning", "created_at": "2026-02-18T19:06:55Z", "source": "synthetic_chatter", "url": "local://synthetic/53"}
+{"text": "we leaked bank. db rows shown. DM for details.", "label": "claim", "created_at": "2026-02-18T19:06:55Z", "source": "synthetic_chatter", "url": "local://synthetic/361"}
+{"text": "swift connection string exposed: mongodb://user:pass@db.example.com:27017/prod", "label": "leak", "created_at": "2026-02-18T19:06:55Z", "source": "synthetic_chatter", "url": "local://synthetic/579"}
+{"text": "discussion: CVE-2023-34362 affecting atm. patch status?", "label": "discussion", "created_at": "2026-02-18T19:06:55Z", "source": "synthetic_chatter", "url": "local://synthetic/805"}
+{"text": "we breached power grid. hashes available. DM for details.", "label": "claim", "created_at": "2026-02-18T19:06:55Z", "source": "synthetic_chatter", "url": "local://synthetic/428"}
+{"text": "we leaked telco. sample data uploaded. DM for details.", "label": "claim", "created_at": "2026-02-18T19:06:55Z", "source": "synthetic_chatter", "url": "local://synthetic/325"}
+{"text": "npci API leak: Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.FAKE.SIGNATURE", "label": "leak", "created_at": "2026-02-18T19:06:55Z", "source": "synthetic_chatter", "url": "local://synthetic/586"}
+{"text": "gas plant connection string exposed: mongodb://user:pass@db.example.com:27017/prod", "label": "leak", "created_at": "2026-02-18T19:06:55Z", "source": "synthetic_chatter", "url": "local://synthetic/640"}
+{"text": "movie release next week", "label": "irrelevant", "created_at": "2026-02-18T19:06:55Z", "source": "synthetic_chatter", "url": "local://synthetic/943"}
+{"text": "discussion: CVE-2024-3094 affecting container terminal. PoC link?", "label": "discussion", "created_at": "2026-02-18T19:06:55Z", "source": "synthetic_chatter", "url": "local://synthetic/844"}
+{"text": "discussion: CVE-2023-34362 affecting substation. does WAF stop it?", "label": "discussion", "created_at": "2026-02-18T19:06:55Z", "source": "synthetic_chatter", "url": "local://synthetic/791"}
+{"text": "planning exploit on dock tomorrow. buy access.", "label": "planning", "created_at": "2026-02-18T19:06:55Z", "source": "synthetic_chatter", "url": "local://synthetic/136"}
+{"text": "best laptop for coding", "label": "irrelevant", "created_at": "2026-02-18T19:06:55Z", "source": "synthetic_chatter", "url": "local://synthetic/909"}
+{"text": "we breached infrastructure. db rows shown. DM for details.", "label": "claim", "created_at": "2026-02-18T19:06:55Z", "source": "synthetic_chatter", "url": "local://synthetic/363"}
+{"text": "planning ransomware on harbor at 2am. need vuln chain.", "label": "planning", "created_at": "2026-02-18T19:06:55Z", "source": "synthetic_chatter", "url": "local://synthetic/32"}
+{"text": "discussion: CVE-2021-44228 affecting bank. need mitigation steps", "label": "discussion", "created_at": "2026-02-18T19:06:55Z", "source": "synthetic_chatter", "url": "local://synthetic/883"}
+{"text": "anime recommendations", "label": "irrelevant", "created_at": "2026-02-18T19:06:55Z", "source": "synthetic_chatter", "url": "local://synthetic/960"}
+{"text": "aviation API leak: Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.FAKE.SIGNATURE", "label": "leak", "created_at": "2026-02-18T19:06:55Z", "source": "synthetic_chatter", "url": "local://synthetic/574"}
+{"text": "upi gateway config exposed: AWS_ACCESS_KEY_ID=AKIAFAKEFAKEFAKEFAKE AWS_SECRET_ACCESS_KEY=FAKESECRET1234567890", "label": "leak", "created_at": "2026-02-18T19:06:55Z", "source": "synthetic_chatter", "url": "local://synthetic/543"}
+{"text": "gaming tournament", "label": "irrelevant", "created_at": "2026-02-18T19:06:55Z", "source": "synthetic_chatter", "url": "local://synthetic/948"}
+{"text": "discussion: CVE-2022-22965 affecting upi switch. is this exploitable in prod?", "label": "discussion", "created_at": "2026-02-18T19:06:55Z", "source": "synthetic_chatter", "url": "local://synthetic/788"}
+{"text": "movie release next week", "label": "irrelevant", "created_at": "2026-02-18T19:06:55Z", "source": "synthetic_chatter", "url": "local://synthetic/904"}
+{"text": "we leaked harbor. hashes available. DM for details.", "label": "claim", "created_at": "2026-02-18T19:06:55Z", "source": "synthetic_chatter", "url": "local://synthetic/318"}
+{"text": "grid key leaked:\n-----BEGIN PRIVATE KEY-----\nMIIE...FAKE\n-----END PRIVATE KEY-----", "label": "leak", "created_at": "2026-02-18T19:06:55Z", "source": "synthetic_chatter", "url": "local://synthetic/518"}
+{"text": "we breached telecom. screenshots posted. DM for details.", "label": "claim", "created_at": "2026-02-18T19:06:55Z", "source": "synthetic_chatter", "url": "local://synthetic/420"}
+{"text": "planning ransomware on bank tomorrow. buy access.", "label": "planning", "created_at": "2026-02-18T19:06:55Z", "source": "synthetic_chatter", "url": "local://synthetic/266"}
+{"text": "train connection string exposed: mongodb://user:pass@db.example.com:27017/prod", "label": "leak", "created_at": "2026-02-18T19:06:55Z", "source": "synthetic_chatter", "url": "local://synthetic/697"}
+{"text": "anime recommendations", "label": "irrelevant", "created_at": "2026-02-18T19:06:55Z", "source": "synthetic_chatter", "url": "local://synthetic/924"}
+{"text": "discussion: CVE-2021-44228 affecting container terminal. need mitigation steps", "label": "discussion", "created_at": "2026-02-18T19:06:55Z", "source": "synthetic_chatter", "url": "local://synthetic/768"}
+{"text": "planning ddos on electric at 2am. buy access.", "label": "planning", "created_at": "2026-02-18T19:06:55Z", "source": "synthetic_chatter", "url": "local://synthetic/149"}
+{"text": "planning ddos on payment gateway at 2am. need vuln chain.", "label": "planning", "created_at": "2026-02-18T19:06:55Z", "source": "synthetic_chatter", "url": "local://synthetic/88"}
+{"text": "power grid connection string exposed: mongodb://user:pass@db.example.com:27017/prod", "label": "leak", "created_at": "2026-02-18T19:06:55Z", "source": "synthetic_chatter", "url": "local://synthetic/624"}
+{"text": "discussion: CVE-2024-3094 affecting aviation. patch status?", "label": "discussion", "created_at": "2026-02-18T19:06:55Z", "source": "synthetic_chatter", "url": "local://synthetic/877"}
+{"text": "we leaked petroleum. screenshots posted. DM for details.", "label": "claim", "created_at": "2026-02-18T19:06:55Z", "source": "synthetic_chatter", "url": "local://synthetic/433"}
+{"text": "upi gateway connection string exposed: mongodb://user:pass@db.example.com:27017/prod", "label": "leak", "created_at": "2026-02-18T19:06:55Z", "source": "synthetic_chatter", "url": "local://synthetic/503"}
+{"text": "planning exploit on power grid tomorrow. have creds.", "label": "planning", "created_at": "2026-02-18T19:06:55Z", "source": "synthetic_chatter", "url": "local://synthetic/196"}
+{"text": "discussion: CVE-2022-22965 affecting harbour. need mitigation steps", "label": "discussion", "created_at": "2026-02-18T19:06:55Z", "source": "synthetic_chatter", "url": "local://synthetic/757"}
+{"text": "discussion: CVE-2022-22965 affecting upi gateway. anyone tested?", "label": "discussion", "created_at": "2026-02-18T19:06:55Z", "source": "synthetic_chatter", "url": "local://synthetic/774"}
+{"text": "we breached telecom. db rows shown. DM for details.", "label": "claim", "created_at": "2026-02-18T19:06:55Z", "source": "synthetic_chatter", "url": "local://synthetic/391"}
+{"text": "planning take down on core banking at 2am. found exposed admin.", "label": "planning", "created_at": "2026-02-18T19:06:55Z", "source": "synthetic_chatter", "url": "local://synthetic/169"}
+{"text": "we pwned system. hashes available. DM for details.", "label": "claim", "created_at": "2026-02-18T19:06:55Z", "source": "synthetic_chatter", "url": "local://synthetic/332"}
+{"text": "substation connection string exposed: mongodb://user:pass@db.example.com:27017/prod", "label": "leak", "created_at": "2026-02-18T19:06:55Z", "source": "synthetic_chatter", "url": "local://synthetic/517"}
+{"text": "planning dump on electric tonight. found exposed admin.", "label": "planning", "created_at": "2026-02-18T19:06:55Z", "source": "synthetic_chatter", "url": "local://synthetic/192"}
+{"text": "we dumped lte. db rows shown. DM for details.", "label": "claim", "created_at": "2026-02-18T19:06:55Z", "source": "synthetic_chatter", "url": "local://synthetic/470"}
+{"text": "substation key leaked:\n-----BEGIN PRIVATE KEY-----\nMIIE...FAKE\n-----END PRIVATE KEY-----", "label": "leak", "created_at": "2026-02-18T19:06:55Z", "source": "synthetic_chatter", "url": "local://synthetic/715"}
+{"text": "discussion: CVE-2023-34362 affecting npci. does WAF stop it?", "label": "discussion", "created_at": "2026-02-18T19:06:55Z", "source": "synthetic_chatter", "url": "local://synthetic/782"}
+{"text": "planning take down on payment gateway in 3 hours. have creds.", "label": "planning", "created_at": "2026-02-18T19:06:55Z", "source": "synthetic_chatter", "url": "local://synthetic/94"}
+{"text": "swift API leak: Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.FAKE.SIGNATURE", "label": "leak", "created_at": "2026-02-18T19:06:55Z", "source": "synthetic_chatter", "url": "local://synthetic/738"}
+{"text": "swift key leaked:\n-----BEGIN PRIVATE KEY-----\nMIIE...FAKE\n-----END PRIVATE KEY-----", "label": "leak", "created_at": "2026-02-18T19:06:55Z", "source": "synthetic_chatter", "url": "local://synthetic/660"}
+{"text": "planning exploit on petroleum tomorrow. need botnet.", "label": "planning", "created_at": "2026-02-18T19:06:55Z", "source": "synthetic_chatter", "url": "local://synthetic/184"}
+{"text": "discussion: CVE-2024-3094 affecting upi switch. does WAF stop it?", "label": "discussion", "created_at": "2026-02-18T19:06:55Z", "source": "synthetic_chatter", "url": "local://synthetic/816"}
+{"text": "planning ddos on electric tonight. zero-day ready.", "label": "planning", "created_at": "2026-02-18T19:06:55Z", "source": "synthetic_chatter", "url": "local://synthetic/115"}
+{"text": "we pwned telecom. sample data uploaded. DM for details.", "label": "claim", "created_at": "2026-02-18T19:06:55Z", "source": "synthetic_chatter", "url": "local://synthetic/403"}
+{"text": "discussion: CVE-2023-34362 affecting upi switch. is this exploitable in prod?", "label": "discussion", "created_at": "2026-02-18T19:06:55Z", "source": "synthetic_chatter", "url": "local://synthetic/785"}
+{"text": "port creds leaked. username=admin password=hunter2 (fake).", "label": "leak", "created_at": "2026-02-18T19:06:55Z", "source": "synthetic_chatter", "url": "local://synthetic/685"}
+{"text": "weather is nice today", "label": "irrelevant", "created_at": "2026-02-18T19:06:55Z", "source": "synthetic_chatter", "url": "local://synthetic/919"}
+{"text": "we leaked airline. hashes available. DM for details.", "label": "claim", "created_at": "2026-02-18T19:06:55Z", "source": "synthetic_chatter", "url": "local://synthetic/373"}
+{"text": "discussion: CVE-2021-44228 affecting refinery. is this exploitable in prod?", "label": "discussion", "created_at": "2026-02-18T19:06:55Z", "source": "synthetic_chatter", "url": "local://synthetic/802"}
+{"text": "discussion: CVE-2023-34362 affecting tower. is this exploitable in prod?", "label": "discussion", "created_at": "2026-02-18T19:06:55Z", "source": "synthetic_chatter", "url": "local://synthetic/815"}
+{"text": "recipe for biryani", "label": "irrelevant", "created_at": "2026-02-18T19:06:55Z", "source": "synthetic_chatter", "url": "local://synthetic/970"}
+{"text": "atm creds leaked. username=admin password=hunter2 (fake).", "label": "leak", "created_at": "2026-02-18T19:06:55Z", "source": "synthetic_chatter", "url": "local://synthetic/700"}
+{"text": "we dumped swift. sample data uploaded. DM for details.", "label": "claim", "created_at": "2026-02-18T19:06:55Z", "source": "synthetic_chatter", "url": "local://synthetic/346"}
+{"text": "planning breach on aviation at 2am. buy access.", "label": "planning", "created_at": "2026-02-18T19:06:55Z", "source": "synthetic_chatter", "url": "local://synthetic/134"}
+{"text": "planning exploit on core banking tomorrow. found exposed admin.", "label": "planning", "created_at": "2026-02-18T19:06:55Z", "source": "synthetic_chatter", "url": "local://synthetic/144"}
+{"text": "discussion: CVE-2021-44228 affecting grid. PoC link?", "label": "discussion", "created_at": "2026-02-18T19:06:55Z", "source": "synthetic_chatter", "url": "local://synthetic/898"}
+{"text": "discussion: CVE-2024-3094 affecting substation. PoC link?", "label": "discussion", "created_at": "2026-02-18T19:06:55Z", "source": "synthetic_chatter", "url": "local://synthetic/872"}
+{"text": "we leaked upi. sample data uploaded. DM for details.", "label": "claim", "created_at": "2026-02-18T19:06:55Z", "source": "synthetic_chatter", "url": "local://synthetic/308"}
+{"text": "train creds leaked. username=admin password=hunter2 (fake).", "label": "leak", "created_at": "2026-02-18T19:06:55Z", "source": "synthetic_chatter", "url": "local://synthetic/538"}
+{"text": "discussion: CVE-2023-34362 affecting airline. is this exploitable in prod?", "label": "discussion", "created_at": "2026-02-18T19:06:55Z", "source": "synthetic_chatter", "url": "local://synthetic/800"}
+{"text": "recipe for biryani", "label": "irrelevant", "created_at": "2026-02-18T19:06:55Z", "source": "synthetic_chatter", "url": "local://synthetic/932"}
+{"text": "we breached core banking. screenshots posted. DM for details.", "label": "claim", "created_at": "2026-02-18T19:06:55Z", "source": "synthetic_chatter", "url": "local://synthetic/409"}
+{"text": "recipe for biryani", "label": "irrelevant", "created_at": "2026-02-18T19:06:55Z", "source": "synthetic_chatter", "url": "local://synthetic/988"}
+{"text": "we breached upi. panel screenshot. DM for details.", "label": "claim", "created_at": "2026-02-18T19:06:55Z", "source": "synthetic_chatter", "url": "local://synthetic/453"}
+{"text": "gas plant creds leaked. username=admin password=hunter2 (fake).", "label": "leak", "created_at": "2026-02-18T19:06:55Z", "source": "synthetic_chatter", "url": "local://synthetic/672"}
+{"text": "upi key leaked:\n-----BEGIN PRIVATE KEY-----\nMIIE...FAKE\n-----END PRIVATE KEY-----", "label": "leak", "created_at": "2026-02-18T19:06:55Z", "source": "synthetic_chatter", "url": "local://synthetic/516"}
+{"text": "planning ddos on harbor in 3 hours. need vuln chain.", "label": "planning", "created_at": "2026-02-18T19:06:55Z", "source": "synthetic_chatter", "url": "local://synthetic/175"}
+{"text": "weather is nice today", "label": "irrelevant", "created_at": "2026-02-18T19:06:55Z", "source": "synthetic_chatter", "url": "local://synthetic/962"}
+{"text": "recipe for biryani", "label": "irrelevant", "created_at": "2026-02-18T19:06:55Z", "source": "synthetic_chatter", "url": "local://synthetic/987"}
+{"text": "planning take down on harbour in 3 hours. need vuln chain.", "label": "planning", "created_at": "2026-02-18T19:06:55Z", "source": "synthetic_chatter", "url": "local://synthetic/60"}
+{"text": "we leaked airport. db rows shown. DM for details.", "label": "claim", "created_at": "2026-02-18T19:06:55Z", "source": "synthetic_chatter", "url": "local://synthetic/358"}
+{"text": "planning exploit on container terminal at 2am. need vuln chain.", "label": "planning", "created_at": "2026-02-18T19:06:55Z", "source": "synthetic_chatter", "url": "local://synthetic/216"}
+{"text": "planning ransomware on swift this weekend. found exposed admin.", "label": "planning", "created_at": "2026-02-18T19:06:55Z", "source": "synthetic_chatter", "url": "local://synthetic/284"}
+{"text": "discussion: CVE-2023-34362 affecting oil. need mitigation steps", "label": "discussion", "created_at": "2026-02-18T19:06:55Z", "source": "synthetic_chatter", "url": "local://synthetic/822"}
+{"text": "we owned rail. sample data uploaded. DM for details.", "label": "claim", "created_at": "2026-02-18T19:06:55Z", "source": "synthetic_chatter", "url": "local://synthetic/395"}
+{"text": "weather is nice today", "label": "irrelevant", "created_at": "2026-02-18T19:06:55Z", "source": "synthetic_chatter", "url": "local://synthetic/939"}
+{"text": "planning take down on oil in 3 hours. zero-day ready.", "label": "planning", "created_at": "2026-02-18T19:06:55Z", "source": "synthetic_chatter", "url": "local://synthetic/110"}
+{"text": "aviation API leak: Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.FAKE.SIGNATURE", "label": "leak", "created_at": "2026-02-18T19:06:55Z", "source": "synthetic_chatter", "url": "local://synthetic/559"}
+{"text": "we pwned telco. panel screenshot. DM for details.", "label": "claim", "created_at": "2026-02-18T19:06:55Z", "source": "synthetic_chatter", "url": "local://synthetic/411"}
+{"text": "planning exploit on lte this weekend. found exposed admin.", "label": "planning", "created_at": "2026-02-18T19:06:55Z", "source": "synthetic_chatter", "url": "local://synthetic/31"}
+{"text": "grid key leaked:\n-----BEGIN PRIVATE KEY-----\nMIIE...FAKE\n-----END PRIVATE KEY-----", "label": "leak", "created_at": "2026-02-18T19:06:55Z", "source": "synthetic_chatter", "url": "local://synthetic/656"}
+{"text": "swift config exposed: AWS_ACCESS_KEY_ID=AKIAFAKEFAKEFAKEFAKE AWS_SECRET_ACCESS_KEY=FAKESECRET1234567890", "label": "leak", "created_at": "2026-02-18T19:06:55Z", "source": "synthetic_chatter", "url": "local://synthetic/658"}
+{"text": "planning breach on gas plant in 3 hours. have creds.", "label": "planning", "created_at": "2026-02-18T19:06:55Z", "source": "synthetic_chatter", "url": "local://synthetic/37"}
+{"text": "planning take down on payment gateway in 3 hours. need vuln chain.", "label": "planning", "created_at": "2026-02-18T19:06:55Z", "source": "synthetic_chatter", "url": "local://synthetic/143"}
+{"text": "sim swap config exposed: AWS_ACCESS_KEY_ID=AKIAFAKEFAKEFAKEFAKE AWS_SECRET_ACCESS_KEY=FAKESECRET1234567890", "label": "leak", "created_at": "2026-02-18T19:06:55Z", "source": "synthetic_chatter", "url": "local://synthetic/526"}
+{"text": "planning breach on grid in 3 hours. need vuln chain.", "label": "planning", "created_at": "2026-02-18T19:06:55Z", "source": "synthetic_chatter", "url": "local://synthetic/125"}
+{"text": "we pwned power grid. db rows shown. DM for details.", "label": "claim", "created_at": "2026-02-18T19:06:55Z", "source": "synthetic_chatter", "url": "local://synthetic/357"}
+{"text": "we pwned rail. hashes available. DM for details.", "label": "claim", "created_at": "2026-02-18T19:06:55Z", "source": "synthetic_chatter", "url": "local://synthetic/466"}
+{"text": "planning exploit on aviation tonight. zero-day ready.", "label": "planning", "created_at": "2026-02-18T19:06:55Z", "source": "synthetic_chatter", "url": "local://synthetic/204"}
+{"text": "dock connection string exposed: mongodb://user:pass@db.example.com:27017/prod", "label": "leak", "created_at": "2026-02-18T19:06:55Z", "source": "synthetic_chatter", "url": "local://synthetic/681"}
+{"text": "we breached scada. panel screenshot. DM for details.", "label": "claim", "created_at": "2026-02-18T19:06:55Z", "source": "synthetic_chatter", "url": "local://synthetic/416"}
+{"text": "planning dump on npci this weekend. have creds.", "label": "planning", "created_at": "2026-02-18T19:06:55Z", "source": "synthetic_chatter", "url": "local://synthetic/61"}
+{"text": "best laptop for coding", "label": "irrelevant", "created_at": "2026-02-18T19:06:55Z", "source": "synthetic_chatter", "url": "local://synthetic/998"}
+{"text": "planning breach on train in 3 hours. found exposed admin.", "label": "planning", "created_at": "2026-02-18T19:06:55Z", "source": "synthetic_chatter", "url": "local://synthetic/114"}
+{"text": "recipe for biryani", "label": "irrelevant", "created_at": "2026-02-18T19:06:55Z", "source": "synthetic_chatter", "url": "local://synthetic/995"}
+{"text": "planning exploit on critical this weekend. found exposed admin.", "label": "planning", "created_at": "2026-02-18T19:06:55Z", "source": "synthetic_chatter", "url": "local://synthetic/174"}
+{"text": "college fest schedule", "label": "irrelevant", "created_at": "2026-02-18T19:06:55Z", "source": "synthetic_chatter", "url": "local://synthetic/903"}
+{"text": "planning dump on rail tomorrow. have creds.", "label": "planning", "created_at": "2026-02-18T19:06:55Z", "source": "synthetic_chatter", "url": "local://synthetic/128"}
+{"text": "planning dump on power grid this weekend. have creds.", "label": "planning", "created_at": "2026-02-18T19:06:55Z", "source": "synthetic_chatter", "url": "local://synthetic/185"}
+{"text": "we leaked rail. sample data uploaded. DM for details.", "label": "claim", "created_at": "2026-02-18T19:06:55Z", "source": "synthetic_chatter", "url": "local://synthetic/446"}
+{"text": "planning breach on grid at 2am. zero-day ready.", "label": "planning", "created_at": "2026-02-18T19:06:55Z", "source": "synthetic_chatter", "url": "local://synthetic/287"}
+{"text": "npci creds leaked. username=admin password=hunter2 (fake).", "label": "leak", "created_at": "2026-02-18T19:06:55Z", "source": "synthetic_chatter", "url": "local://synthetic/520"}
+{"text": "discussion: CVE-2022-22965 affecting infrastructure. need mitigation steps", "label": "discussion", "created_at": "2026-02-18T19:06:55Z", "source": "synthetic_chatter", "url": "local://synthetic/770"}
+{"text": "airport API leak: Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.FAKE.SIGNATURE", "label": "leak", "created_at": "2026-02-18T19:06:55Z", "source": "synthetic_chatter", "url": "local://synthetic/646"}
+{"text": "we leaked train. hashes available. DM for details.", "label": "claim", "created_at": "2026-02-18T19:06:55Z", "source": "synthetic_chatter", "url": "local://synthetic/489"}
+{"text": "planning ddos on scada tonight. have creds.", "label": "planning", "created_at": "2026-02-18T19:06:55Z", "source": "synthetic_chatter", "url": "local://synthetic/198"}
+{"text": "upi key leaked:\n-----BEGIN PRIVATE KEY-----\nMIIE...FAKE\n-----END PRIVATE KEY-----", "label": "leak", "created_at": "2026-02-18T19:06:55Z", "source": "synthetic_chatter", "url": "local://synthetic/741"}
+{"text": "planning ddos on netbanking tomorrow. zero-day ready.", "label": "planning", "created_at": "2026-02-18T19:06:55Z", "source": "synthetic_chatter", "url": "local://synthetic/62"}

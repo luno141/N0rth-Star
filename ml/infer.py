@@ -1,174 +1,242 @@
-import joblib
-import numpy as np
+# ml/infer.py
+from __future__ import annotations
+
+from dataclasses import dataclass
 from pathlib import Path
+from typing import Dict, Any, List, Optional, Tuple
+
+import math
+from joblib import load
+
 
 INTENT_MODEL_PATH = Path("ml/models/intent_tfidf/model.joblib")
 SECTOR_MODEL_PATH = Path("ml/models/sector_tfidf/model.joblib")
-VULN_MODEL_PATH   = Path("ml/models/vuln_risk/model.joblib")
+VULN_MODEL_PATH = Path("ml/models/vuln_risk/model.joblib")
+
+
+def _softmax(xs: List[float]) -> List[float]:
+    if not xs:
+        return []
+    m = max(xs)
+    exps = [math.exp(x - m) for x in xs]
+    s = sum(exps) or 1.0
+    return [e / s for e in exps]
+
+
+def _sigmoid(x: float) -> float:
+    # stable-ish sigmoid
+    if x >= 0:
+        z = math.exp(-x)
+        return 1 / (1 + z)
+    z = math.exp(x)
+    return z / (1 + z)
+
+
+def _normalize_probs_fallback(scores: List[float]) -> List[float]:
+    """
+    If model doesn't expose predict_proba, we try:
+      - for multiclass: softmax(decision_function)
+      - for OVR multilabel: sigmoid(decision_function) then normalize (sum=1)
+    We'll just do sigmoid then normalize, works reasonably for OVR too.
+    """
+    if not scores:
+        return []
+    ps = [_sigmoid(s) for s in scores]
+    s = sum(ps) or 1.0
+    return [p / s for p in ps]
+
+
+def _load_bundle(path: Path) -> Dict[str, Any]:
+    if not path.exists():
+        raise FileNotFoundError(f"Missing model file: {path}")
+    obj = load(path)
+    if not isinstance(obj, dict):
+        # allow plain pipeline too
+        return {"pipeline": obj, "labels": None}
+    return obj
+
+
+def _bundle_to_pipeline(bundle: Dict[str, Any]):
+    """
+    Supports:
+    - New format: {"pipeline": Pipeline, "labels": [...], "task": "..."}
+    - Old format: {"vectorizer": vec, "clf": clf, "labels": [...]}
+    """
+    if "pipeline" in bundle:
+        return bundle["pipeline"], bundle.get("labels")
+
+    # legacy
+    vec = bundle.get("vectorizer")
+    clf = bundle.get("clf")
+    labels = bundle.get("labels")
+    if vec is None or clf is None:
+        raise KeyError(f"Model bundle missing pipeline or legacy keys: {bundle.keys()}")
+
+    class _LegacyPipe:
+        def __init__(self, v, c):
+            self.v = v
+            self.c = c
+
+        def predict(self, texts):
+            X = self.v.transform(texts)
+            return self.c.predict(X)
+
+        def predict_proba(self, texts):
+            X = self.v.transform(texts)
+            if hasattr(self.c, "predict_proba"):
+                return self.c.predict_proba(X)
+            if hasattr(self.c, "decision_function"):
+                df = self.c.decision_function(X)
+                # df can be shape (n,) for binary, or (n,k)
+                return df
+            raise AttributeError("No predict_proba/decision_function on legacy clf")
+
+        def decision_function(self, texts):
+            X = self.v.transform(texts)
+            return self.c.decision_function(X)
+
+    return _LegacyPipe(vec, clf), labels
+
+
+@dataclass
+class _ModelWrap:
+    pipe: Any
+    labels: List[str]
+
 
 class NorthStarModels:
-    def __init__(
-        self,
-        intent_path=INTENT_MODEL_PATH,
-        sector_path=SECTOR_MODEL_PATH,
-        vuln_path=VULN_MODEL_PATH
-    ):
-        self.intent_bundle = joblib.load(str(intent_path))
-        self.sector_bundle = joblib.load(str(sector_path))
+    """
+    Loads intent + sector + vuln models (torch-free).
+    Compatible with both old and new saved formats.
+    """
 
-        self.intent_vec = self.intent_bundle["vectorizer"]
-        self.intent_clf = self.intent_bundle["clf"]
+    def __init__(self):
+        # intent
+        intent_bundle = _load_bundle(INTENT_MODEL_PATH)
+        intent_pipe, intent_labels = _bundle_to_pipeline(intent_bundle)
+        if not intent_labels:
+            # fallback if not present
+            intent_labels = intent_bundle.get("classes") or []
+        self.intent = _ModelWrap(intent_pipe, list(intent_labels))
 
-        self.sector_vec = self.sector_bundle["vectorizer"]
-        self.sector_clf = self.sector_bundle["clf"]
-        self.sector_labels = self.sector_bundle["sector_labels"]
+        # sector
+        sector_bundle = _load_bundle(SECTOR_MODEL_PATH)
+        sector_pipe, sector_labels = _bundle_to_pipeline(sector_bundle)
+        if not sector_labels:
+            sector_labels = sector_bundle.get("classes") or []
+        self.sector = _ModelWrap(sector_pipe, list(sector_labels))
 
-        # Vuln model is optional (so you can ship even without dataset)
-        self.vuln_bundle = None
-        if vuln_path.exists():
-            self.vuln_bundle = joblib.load(str(vuln_path))
+        # vuln risk (optional)
+        self.vuln_bundle: Optional[Dict[str, Any]] = None
+        self.vuln_pipe: Optional[Any] = None
+        if VULN_MODEL_PATH.exists():
+            vb = _load_bundle(VULN_MODEL_PATH)
+            # your vuln trainer likely saved {"pipeline":..., ...} or {"model": ...}
+            if "pipeline" in vb:
+                self.vuln_pipe = vb["pipeline"]
+            elif "model" in vb:
+                self.vuln_pipe = vb["model"]
+            else:
+                # allow joblib dump of estimator itself
+                if not isinstance(vb, dict):
+                    self.vuln_pipe = vb
+                else:
+                    # last resort: try any key
+                    self.vuln_pipe = next(iter(vb.values()))
+            self.vuln_bundle = vb
 
-    def predict_intent(self, text: str):
-        X = self.intent_vec.transform([text])
-        proba = self.intent_clf.predict_proba(X)[0]
-        labels = self.intent_clf.classes_
-        i = int(np.argmax(proba))
-        return {"label": str(labels[i]), "confidence": float(proba[i])}
+    # -------- intent --------
+    def _predict_single_label(self, wrap: _ModelWrap, text: str) -> Tuple[str, float, List[Tuple[str, float]]]:
+        text = text or ""
+        labels = wrap.labels
 
-    def predict_sectors(
-        self,
-        text: str,
-        threshold: float = 0.35,
-        top_k: int = 1,
-        margin: float = 0.10,
-    ):
-        """
-        Multi-label model, but product default is ONE sector.
+        # 1) try predict_proba
+        proba = None
+        if hasattr(wrap.pipe, "predict_proba"):
+            try:
+                proba = wrap.pipe.predict_proba([text])
+            except Exception:
+                proba = None
 
-        Rules:
-        - Apply threshold
-        - Drop 'other' if any real sector exists
-        - Default: top 1 sector
-        - If top_k > 1, allow additional sectors only if within `margin` of top score
-        """
-        X = self.sector_vec.transform([text])
-        proba = self.sector_clf.predict_proba(X)[0]
+        if proba is not None:
+            # sklearn can return ndarray-like
+            row = list(proba[0]) if hasattr(proba, "__len__") else []
+            if labels and len(row) == len(labels):
+                pairs = list(zip(labels, row))
+                pairs.sort(key=lambda x: x[1], reverse=True)
+                top = pairs[0]
+                return top[0], float(top[1]), [(k, float(v)) for k, v in pairs]
 
-        scored = [{"label": label, "confidence": float(p)} for label, p in zip(self.sector_labels, proba)]
-        scored.sort(key=lambda x: x["confidence"], reverse=True)
+        # 2) decision_function -> normalize
+        if hasattr(wrap.pipe, "decision_function"):
+            df = wrap.pipe.decision_function([text])
+            # df can be (k,) or (1,k)
+            if hasattr(df, "__len__"):
+                if hasattr(df[0], "__len__"):
+                    scores = list(df[0])
+                else:
+                    # binary case shape (1,) maybe
+                    scores = [float(df[0])]
+            else:
+                scores = [float(df)]
 
-        out = [x for x in scored if x["confidence"] >= threshold]
+            # if labels length matches, use that, else fallback label "unknown"
+            if not labels:
+                labels = [f"class_{i}" for i in range(len(scores))]
+                wrap.labels = labels
 
-        real = [x for x in out if x["label"] != "other"]
-        if real:
-            out = real
+            if len(scores) != len(labels):
+                # safest alignment
+                labels = labels[: len(scores)]
 
-        if not out:
-            return [scored[0]]
+            probs = _normalize_probs_fallback([float(s) for s in scores])
+            pairs = list(zip(labels, probs))
+            pairs.sort(key=lambda x: x[1], reverse=True)
+            top = pairs[0]
+            return top[0], float(top[1]), [(k, float(v)) for k, v in pairs]
 
-        top = out[0]
-        if top_k <= 1:
-            return [top]
+        # 3) plain predict
+        y = wrap.pipe.predict([text])[0]
+        return str(y), 0.55, [(str(y), 0.55)]
 
-        kept = [top]
-        for x in out[1:]:
-            if x["confidence"] >= top["confidence"] - margin:
-                kept.append(x)
-            if len(kept) >= top_k:
-                break
-        return kept
+    # -------- sector --------
+    def _predict_top_sectors(self, text: str, top_k: int = 3) -> List[Dict[str, float]]:
+        label, conf, all_pairs = self._predict_single_label(self.sector, text)
 
-    # -----------------------------
-    # Vulnerability risk prediction
-    # -----------------------------
-
-    def _normalize_vuln_features(self, d: dict) -> dict:
-        out = {}
-        out["cvss"] = float(d.get("cvss", 0.0))
-        out["internet_exposed"] = bool(d.get("internet_exposed", False))
-        out["known_exploit"] = bool(d.get("known_exploit", False))
-        out["auth_required"] = bool(d.get("auth_required", False))
-        out["patch_age_days"] = float(d.get("patch_age_days", 0.0))
-        out["vuln_age_days"] = float(d.get("vuln_age_days", 0.0))
-        out["asset_criticality"] = str(d.get("asset_criticality", "unknown")).lower()
-        out["env"] = str(d.get("env", "unknown")).lower()
-        out["attack_surface"] = str(d.get("attack_surface", "unknown")).lower()
+        # for OVR sector model, "all_pairs" are already sorted probs.
+        out = []
+        for lab, p in all_pairs[:max(1, top_k)]:
+            out.append({"label": lab, "confidence": float(p)})
         return out
 
-    def vuln_risk_heuristic(self, features: dict) -> dict:
+    # -------- vuln risk --------
+    def vuln_risk_predict(self, features: Dict[str, Any]) -> Dict[str, Any]:
         """
-        Fallback when you don't have a trained risk model yet.
-        Returns score 0-100 + explainability reasons.
+        Expects dict like:
+          cvss (float), internet_exposed (bool), asset_criticality (low/medium/high),
+          patch_age_days (int), known_exploit (bool), env (dev/stage/prod), auth_required (bool), attack_surface (web/api/etc)
+        Your train_vuln.py defines the feature handling. Here we just pass through.
         """
-        f = self._normalize_vuln_features(features)
-        score = 0.0
-        reasons = []
+        if self.vuln_pipe is None:
+            return {"score": 0.0, "method": "none", "reasons": ["No vuln model loaded"]}
 
-        cvss = f["cvss"]
-        score += min(40.0, (cvss / 10.0) * 40.0)
-        if cvss >= 9:
-            reasons.append("High CVSS")
+        # Many sklearn pipelines accept a list[dict] (DictVectorizer inside), or DataFrame.
+        try:
+            pred = self.vuln_pipe.predict([features])[0]
+            return {"score": float(pred), "method": "ml", "reasons": []}
+        except Exception as e:
+            # fallback: if your model expects ordered numeric vector, you'd adapt here
+            return {"score": 0.0, "method": "error", "reasons": [f"vuln predict failed: {e}"]}
 
-        if f["internet_exposed"]:
-            score += 20.0
-            reasons.append("Internet exposed")
+    # -------- combined --------
+    def predict_all(self, text: str, vuln_features: Optional[Dict[str, Any]] = None) -> Dict[str, Any]:
+        intent_label, intent_conf, _ = self._predict_single_label(self.intent, text)
+        sectors = self._predict_top_sectors(text, top_k=3)
 
-        if f["known_exploit"]:
-            score += 20.0
-            reasons.append("Known exploit in the wild")
-
-        if not f["auth_required"]:
-            score += 8.0
-            reasons.append("No auth required")
-
-        patch_age = f["patch_age_days"]
-        if patch_age >= 30:
-            score += 7.0
-            reasons.append("Patch overdue (30+ days)")
-        elif patch_age >= 7:
-            score += 4.0
-            reasons.append("Patch pending (7+ days)")
-
-        crit = f["asset_criticality"]
-        if crit == "high":
-            score += 10.0
-            reasons.append("High critical asset")
-        elif crit == "medium":
-            score += 6.0
-            reasons.append("Medium critical asset")
-        elif crit == "low":
-            score += 3.0
-            reasons.append("Low critical asset")
-
-        env = f["env"]
-        if env == "prod":
-            score += 5.0
-            reasons.append("Production environment")
-
-        score = float(max(0.0, min(100.0, score)))
-        return {"score": score, "method": "heuristic", "reasons": reasons}
-
-    def vuln_risk_predict(self, features: dict) -> dict:
-        """
-        If trained model exists: use it.
-        Else: fallback heuristic.
-        """
-        if self.vuln_bundle is None:
-            return self.vuln_risk_heuristic(features)
-
-        f = self._normalize_vuln_features(features)
-        vec = self.vuln_bundle["vectorizer"]
-        model = self.vuln_bundle["model"]
-        X = vec.transform([f])
-        pred = float(model.predict(X)[0])
-        pred = float(max(0.0, min(100.0, pred)))
-        return {"score": pred, "method": "ml", "reasons": []}
-
-    def predict_all(self, text: str, vuln_features: dict | None = None):
-        intent = self.predict_intent(text)
-        sectors = self.predict_sectors(text, threshold=0.35, top_k=1, margin=0.10)
-
-        out = {"intent": intent, "sectors": sectors}
+        out: Dict[str, Any] = {
+            "intent": {"label": intent_label, "confidence": float(intent_conf)},
+            "sectors": sectors
+        }
 
         if vuln_features is not None:
             out["vuln_risk"] = self.vuln_risk_predict(vuln_features)
