@@ -1,0 +1,22 @@
+{"text":"dumping telecom database creds tonight","intent":"planning","sectors":["telecom"]}
+{"text":"found api key in public repo API_KEY=sk-xxxx","intent":"leak","sectors":["other"]}
+{"text":"we breached a banking server","intent":"claim","sectors":["banking"]}
+{"text":"anyone knows how ddos works","intent":"discussion","sectors":["other"]}
+{"text":"planning ransomware on power grid","intent":"planning","sectors":["power_grid"]}
+{"text":"private key exposed -----BEGIN RSA PRIVATE KEY-----","intent":"leak","sectors":["other"]}
+{"text":"upi exploit discussion thread","intent":"discussion","sectors":["upi"]}
+{"text":"telecom database leak confirmed","intent":"claim","sectors":["telecom"]}
+{"text":"railways access for sale creds","intent":"planning","sectors":["railways"]}
+{"text":"random meme about college life","intent":"irrelevant","sectors":["other"]}
+{"text":"leaked github token found in config file token=ghp_xxxx","intent":"leak","sectors":["other"]}
+{"text":"jwt exposed in logs Authorization: Bearer eyJxxxx","intent":"leak","sectors":["other"]}
+{"text":"selling access to airport systems dm for creds","intent":"planning","sectors":["airport"]}
+{"text":"ports database dump incoming, got admin access","intent":"planning","sectors":["ports"]}
+{"text":"oil company vpn creds leaked on paste site","intent":"leak","sectors":["oil"]}
+{"text":"power grid ransomware plan discussed in group","intent":"planning","sectors":["power_grid"]}
+{"text":"banking breach claimed by actor, screenshots posted","intent":"claim","sectors":["banking"]}
+{"text":"telecom ddos planned for tonight","intent":"planning","sectors":["telecom"]}
+{"text":"railways vulnerability discussion thread","intent":"discussion","sectors":["railways"]}
+{"text":"upi outage discussion, rumors only","intent":"discussion","sectors":["upi"]}
+{"text":"cute cat video lol","intent":"irrelevant","sectors":["other"]}
+{"text":"movie review nothing security related","intent":"irrelevant","sectors":["other"]}

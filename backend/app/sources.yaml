@@ -1,0 +1,28 @@
+# backend/app/sources.yaml
+
+- name: demo_forum
+  url: http://localhost:8000/demo/feed.json
+  method: json
+  interval_seconds: 60
+  timeout_seconds: 15
+  json_items_path: items
+  json_title_key: title
+  json_url_key: url
+  json_author_key: author
+  json_time_key: created_at
+  json_text_key: text
+  enabled: true
+
+- name: exploitdb
+  url: https://www.exploit-db.com/rss.xml
+  method: rss
+  interval_seconds: 1800
+  timeout_seconds: 45
+  enabled: true
+
+- name: cisa_kev
+  url: https://www.cisa.gov/sites/default/files/feeds/known_exploited_vulnerabilities.xml
+  method: rss
+  interval_seconds: 3600
+  timeout_seconds: 60
+  enabled: true

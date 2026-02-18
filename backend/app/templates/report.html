@@ -1,0 +1,51 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8"/>
+  <title>North Star Threat Report</title>
+  <style>
+    body { font-family: system-ui, Arial; margin: 24px; }
+    h1 { margin: 0 0 6px; }
+    .meta { color: #555; margin-bottom: 16px; }
+    table { border-collapse: collapse; width: 100%; }
+    th, td { border: 1px solid #ddd; padding: 8px; font-size: 13px; }
+    th { background: #f6f6f6; text-align: left; }
+    .score { font-weight: 800; }
+    .pill { display:inline-block; padding:2px 8px; border-radius: 999px; background:#eee; }
+  </style>
+</head>
+<body>
+  <h1>North Star Threat Report</h1>
+  <div class="meta">
+    Generated: {{ generated_at }} · Range: last {{ range_days }} days · Alerts: {{ count }}
+  </div>
+
+  <table>
+    <thead>
+      <tr>
+        <th>ID</th><th>Score</th><th>Category</th><th>Sector</th><th>Intent</th><th>Source</th><th>Title</th><th>Time</th>
+      </tr>
+    </thead>
+    <tbody>
+      {% for a in alerts %}
+      <tr>
+        <td>{{ a.id }}</td>
+        <td class="score">{{ a.score }}</td>
+        <td><span class="pill">{{ a.category }}</span></td>
+        <td>{{ a.sector }}</td>
+        <td>{{ a.intent }}</td>
+        <td>{{ a.source }}</td>
+        <td>
+          {% if a.url %}
+            <a href="{{ a.url }}">{{ a.title }}</a>
+          {% else %}
+            {{ a.title }}
+          {% endif %}
+        </td>
+        <td>{{ a.created_at }}</td>
+      </tr>
+      {% endfor %}
+    </tbody>
+  </table>
+</body>
+</html>

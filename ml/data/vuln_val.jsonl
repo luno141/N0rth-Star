@@ -1,0 +1,4 @@
+{"features":{"cvss":9.6,"internet_exposed":true,"known_exploit":true,"auth_required":false,"patch_age_days":40,"vuln_age_days":200,"asset_criticality":"high","env":"prod","attack_surface":"web"},"risk":95}
+{"features":{"cvss":7.4,"internet_exposed":false,"known_exploit":true,"auth_required":true,"patch_age_days":30,"vuln_age_days":300,"asset_criticality":"medium","env":"prod","attack_surface":"internal"},"risk":68}
+{"features":{"cvss":4.4,"internet_exposed":false,"known_exploit":false,"auth_required":true,"patch_age_days":10,"vuln_age_days":100,"asset_criticality":"low","env":"dev","attack_surface":"internal"},"risk":20}
+{"features":{"cvss":6.7,"internet_exposed":true,"known_exploit":false,"auth_required":false,"patch_age_days":60,"vuln_age_days":250,"asset_criticality":"high","env":"prod","attack_surface":"vpn"},"risk":75}

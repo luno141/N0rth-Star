@@ -1,0 +1,29 @@
+sources:
+  - name: demo_forum
+    url: "http://localhost:8000/demo/feed.json"
+    method: json
+    interval_seconds: 60
+    json_items_path: items
+    json_title_key: title
+    json_url_key: url
+    json_author_key: author
+    json_time_key: created_at
+    json_text_key: text
+
+  # Example RSS source (safe public feed)
+  - name: cisa_kev
+    url: "https://www.cisa.gov/sites/default/files/feeds/known_exploited_vulnerabilities.xml"
+    method: rss
+    interval_seconds: 3600
+
+  # Example HTML source (you must set selectors for that site)
+  # - name: some_forum
+  #   url: "https://example.com/forum"
+  #   method: html
+  #   interval_seconds: 300
+  #   selector_item: ".post"
+  #   selector_title: ".post-title"
+  #   selector_url: ".post-title a"
+  #   selector_author: ".author"
+  #   selector_time: "time"
+  #   selector_text: ".post-body"

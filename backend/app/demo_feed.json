@@ -1,0 +1,52 @@
+[
+  {
+    "source": "demo_forum",
+    "url": "local://2",
+    "title": "telecom creds for sale",
+    "author": "user42",
+    "created_at": "2026-02-18T06:10:00Z",
+    "text": "Selling telecom admin creds. password=SuperSecret123"
+  },
+  {
+    "source": "demo_forum",
+    "url": "local://3",
+    "title": "upi attack planning",
+    "author": "threat_actor",
+    "created_at": "2026-02-18T06:12:00Z",
+    "text": "planning ddos on upi gateway tonight. need botnet nodes."
+  },
+  {
+    "source": "demo_forum",
+    "url": "local://4",
+    "title": "private key leak",
+    "author": "oopsdev",
+    "created_at": "2026-02-18T06:14:00Z",
+    "text": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcw...\n-----END PRIVATE KEY-----"
+  },
+  {
+    "source": "demo_forum",
+    "url": "local://5",
+    "title": "vulnerability report",
+    "author": "sec_team",
+    "created_at": "2026-02-18T06:16:00Z",
+    "text": "CVE discussion on exposed service",
+    "vuln_features": {
+      "cvss": 9.8,
+      "internet_exposed": true,
+      "asset_criticality": "high",
+      "patch_age_days": 40,
+      "known_exploit": true,
+      "env": "prod",
+      "auth_required": false,
+      "attack_surface": "web"
+    }
+  },
+  {
+    "source": "demo_forum",
+    "url": "local://6",
+    "title": "noise",
+    "author": "random",
+    "created_at": "2026-02-18T06:18:00Z",
+    "text": "football match tonight was great"
+  }
+]
